@@ -1,6 +1,6 @@
 var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
- 
+ console.log(process.env)
 var config = {
     username: process.env.FTPUSERNAME,
     password: process.env.FTPPASS,
