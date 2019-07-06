@@ -9,15 +9,14 @@
                     <div 
                         class="google-map" 
                         id="contact-google-map" 
-                        data-map-lat="40.584160" 
-                        data-map-lng="-74.415543" 
-                        data-icon-path="images/resources/map-marker.png" 
-                        data-map-title="Brooklyn, New York, United Kingdom" 
-                        data-map-zoom="12" 
+                        data-map-lat="50.1695285" 
+                        data-map-lng="14.7642849" 
+                        data-icon-path="images/resources/map-marker.png"
+                        data-map-zoom="1" 
                         data-markers='{
-                            "marker-1": [40.584160, -74.415543, "<h4>Head Office</h4><p>44/108 Brooklyn, UK</p>"],
-                            "marker-2": [40.602230, -74.689910, "<h4>Head Office</h4><p>44/108 Brooklyn, UK</p>"],
-                            "marker-3": [35.616959, -87.838852, "<h4>Head Office</h4><p>44/108 Brooklyn, UK</p>"]
+                            "marker-1": [50.1695285, 14.7642849, "<h4>Gearspect Engineering, </h4><h5>Headquarter</h5><p>Stankovskeho 2062, Celakovice 25088 Czech Republic</p>"],
+                            "marker-2": [41.0204124, -73.7618798, "<h4>Gearspect USA Llc.</h4><p>14 Nosband Avenue, White Plains, New York 10605 USA</p>"],
+                            "marker-3": [18.4775739, 73.934555, "<h4>Gearspect India Pvt. Ltd.</h4><p> Pune, Maharashtra, India</p>"]
 
                         }'>
                     </div>   
