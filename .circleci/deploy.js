@@ -6,8 +6,8 @@ var config = {
     password: process.env.FTPPASS,
     host: process.env.FTPHOST,
     port: 21,
-    localRoot: __dirname + "/",
-    remoteRoot: "/",
+    localRoot: __dirname + "/gearspect",
+    remoteRoot: "/gearspect.keasofttech.com/",
     include: ['*']
 }
     
