@@ -43,9 +43,6 @@
                     <div class="call_to_action_title">
                         <div class="title">We are leading<br> gear service provider</div>
                     </div>
-                    <div class="call_to_action_text">
-                        <p>We offer product design, manufacturing and engineering management services.</p>
-                    </div>
                     <div class="video-holder-box2 wow slideInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="icon-holder">
                             <div class="icon">
@@ -125,6 +122,14 @@
     box-shadow: 0px 0px 0px 0px #f0eef9;
     border: 1px solid transparent;
 }
+#testimonial-area .owl-nav{
+    position: absolute;
+    width: 100%;
+}
+#testimonial-area .company-logo, #testimonial-area .text {
+	margin: 0 auto;
+	text-align: justify;
+}
 </style>
 
 <!--Start Branches section-->
@@ -176,29 +181,30 @@
 <!--End Branches section-->
 
 <!--Start Testimonial Area-->
-<section class="testimonial-area" style="background: #f8f7ff;">
+<section class="testimonial-area" id="testimonial-area" style="background: #f8f7ff;">
     <div class="container">
         <div class="row">
               
             <div class="col-xl-12">
-                <div class="testimonial-content clearfix">
-                    <div class="sec-title">
-                        <div class="title"><span>Words From Customers</span></div>
-                    </div>
+                <div class="testimonial-content clearfix  text-center">
+                    <div class="sec-title center text-center">
+						<div class="title"><span>Words From Customers</span></div>
+					</div>
                     <div class="testimonial-carousel owl-carousel owl-theme">
                         <!--Start Single Testimonial Item-->
                         <div class="single-testimonial-item">
                             <div class="company-logo">
                                 <img src="images/testimonial/comp-logo-1.png" alt="Company Logo">
                             </div>
-                            <div class="text">
+                            <div class="text col-xl-8">
                                 <p>On the other hand, we denounce with work righteous indignations dislike men we are beguiled demoralize that all charms our moments is to be welcomed.</p>
                             </div>
                             <div class="client-info">
                                 <h3>Mr. Ajay B.</h3>
                                 <span>Engineer</span>
                             </div>
-                            
+                            <div class="button">                   
+                            </div>
                         </div>
                         <!--End Single Testimonial Item-->
                         <!--Start Single Testimonial Item-->
@@ -206,14 +212,15 @@
                             <div class="company-logo">
                                 <img src="images/testimonial/comp-logo-1.png" alt="Company Logo">
                             </div>
-                            <div class="text">
+                            <div class="text col-xl-8">
                                 <p>On the other hand, we denounce with work righteous indignations dislike men we are beguiled demoralize that all charms our moments is to be welcomed.</p>
                             </div>
                             <div class="client-info">
                                 <h3>Mr. Ajay B.</h3>
                                 <span>Engineer</span>
                             </div>
-                            
+                            <div class="button">                                
+                            </div>
                         </div>
                         <!--End Single Testimonial Item-->
                     </div>
@@ -239,30 +246,20 @@
                     <div class="single-blog-style2">
                         <ul class="meta-info">
                             <li><a href="#"><span class="icon-document"></span>Manufacturing Event</a></li>
-                            <li><a href="#"><span class="icon-comment"></span>0 Comments</a></li>
+                            <li><span class="icon-clock"></span> October 27, 2018</li>
                         </ul>
                         <h3 class="blog-title"><a href="blog-single.html">Increases the speed of your analytics efforts with Gearspect experts.</a></h3>    
-                        <div class="post-date-readmore clearfix">
-                            <div class="post-date float-left">
-                                <span class="icon-clock"></span><p>September 06, 2018</p>    
-                            </div>
-                            
-                        </div> 
+                        
                     </div> 
                     <!--Start Single Blog Style2-->
                     <!--Start Single Blog Style2-->
                     <div class="single-blog-style2">
                         <ul class="meta-info">
                             <li><a href="#"><span class="icon-document"></span>Engineering Launch</a></li>
-                            <li><a href="#"><span class="icon-comment"></span>2 Comments</a></li>
+                            <li><span class="icon-clock"></span> October 27, 2018</li>
                         </ul>
                         <h3 class="blog-title"><a href="blog-single.html">We won the best industrial service provider of the year 2017 & 18.</a></h3>    
-                        <div class="post-date-readmore clearfix">
-                            <div class="post-date float-left">
-                                <span class="icon-clock"></span><p>October 27, 2018</p>    
-                            </div>
-                            
-                        </div> 
+                       
                     </div> 
                     <!--Start Single Blog Style2-->      
                 </div>
@@ -273,18 +270,12 @@
                     <div class="overlay-box">
                         <ul class="meta-info">
                             <li><a href="#"><span class="icon-document"></span>Engineering</a></li>
-                            <li><a href="#"><span class="icon-comment"></span>2 Comments</a></li>
+                           <li><span class="icon-clock"></span> October 27, 2018</li>
                         </ul>
                         <h3 class="blog-title"><a href="blog-single.html">We won the best industrial service provider of the year 2017 & 18.</a></h3>    
-                        <div class="post-date-readmore clearfix">
-                            <div class="post-date float-left">
-                                <span class="icon-clock"></span><p>October 27, 2018</p>    
-                            </div>
-                           
-                        </div>     
+                            
                     </div>
-                </div>
-                  
+                </div> 
             </div>    
         </div>
     </div>
