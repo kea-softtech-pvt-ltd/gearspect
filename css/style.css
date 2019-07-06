@@ -9931,7 +9931,6 @@ select:focus {
     height: 480px;
     width: 100%;
 }
-
 .f-r {
 	float: right !important;
 }
@@ -9939,7 +9938,6 @@ select:focus {
 .f-l {
 	float: left !important;
 }
-
 .n-m {
 	margin:0px !important;
 }
@@ -9947,12 +9945,10 @@ select:focus {
 .n-p {
 	padding:0px !important;
 }
-
 .c-title {
 	color : #4d4d4d;
 	font-weight: 500;
 }
-
 .custom_home {
 	background-color: #4d4d4d;
 }
@@ -9981,4 +9977,25 @@ select:focus {
 #testimonial-area .company-logo, #testimonial-area .text {
 	margin: 0 auto;
 	text-align: justify;
+}
+
+#checkout-area {
+	padding-top:0px;
+}                             
+#checkout-area h3 {
+	padding: 0px 0px 15px 0px;color:#005aab;
+}
+#checkout-area .form form .field-input input[type="text"], textarea {
+    border: 1px solid #cccccc;
+	box-shadow: 0px 0px 0px 1px #8c8c8c;
+	color:#8c8c8c;
+}
+#branches-section .single-branches-box {
+	min-height: 325px;
+	background-color: #f8f7ff;
+}
+#global-office-area .single-global-office {
+	min-height: 279px;
+	padding: 30px 25px 0px 0px;
+	background-color: #f8f7ff;
 }

@@ -1,11 +1,4 @@
 <?php include_once('header.php'); ?>   
-<style>
-.checkout-area .form form .field-input input[type="text"], textarea {
-    border: 1px solid #cccccc;
-	box-shadow: 0px 0px 0px 1px #8c8c8c;
-	color:#8c8c8c;
-}
-</style>
 
 <!--Start Google Map Area-->
 <section class="google-map-area">
@@ -36,41 +29,34 @@
 <!--End Google Map Area-->
 
 <!--Start Global Offices Area-->
-<section class="global-office-area">
+<section class="global-office-area" id="global-office-area">
     <div class="container">
         <div class="sec-title max-width center text-center">
             <div class="title"><span>Connect with our Global Offices</span></div>
         </div>
         <div class="row">
             <!--Start Single Global Office-->
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-global-office headquater">
                     <div class="inner">
-                        <div class="icon">
-                            <span class="icon-map"></span>
-                        </div>
-                        <div class="text">
-							<h3>Gearspect Europe <span>Headquarters</span></h3>
+                       <div class="text">
+							<h3><i class="fa fa-gear fa-spin"></i>&nbsp; Gearspect Europe</h3>
+							<h3><span style="margin-left: 0px;">Headquarters</span></h3>
                             <p>Engineering organization for development and production of gear cutting machines</p>
-                            <p>Stankovskeho 2062, Celakovice 25088, Czech Republic</p>
-							<a class="btn-two" href="#">Find us on Map<span class="icon-thin-right-arrow"></span></a>     
+                            <p>Stankovskeho 2062, Celakovice 25088, Czech Republic</p>   
                         </div>
                     </div>
                 </div>
             </div>
             <!--End Single Global Office-->
             <!--Start Single Global Office-->
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-global-office">
                     <div class="inner">
-                        <div class="icon">
-                            <span class="icon-map"></span>
-                        </div>
                         <div class="text">
-                            <h3>Gearspect USA Llc.</h3>
+                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Gearspect USA Llc.</h3>
                             <p>production of spare parts, sales and service centre in NY, US.</p>
-                            <p>14 Nosband Avenue, White Plains, New York 10605, USA</p>
-                            <a class="btn-two" href="#">Find us on Map<span class="icon-thin-right-arrow"></span></a>   
+                            <p>14 Nosband Avenue, White Plains, New York 10605, USA</p> 
                         </div>
                     </div>
                 </div>
@@ -78,17 +64,13 @@
             <!--End Single Global Office-->
 			
 			 <!--Start Single Global Office-->
-            <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-global-office">
                     <div class="inner">
-                        <div class="icon">
-                            <span class="icon-map"></span>
-                        </div>
                         <div class="text">
-                            <h3>Gearspect India Pvt. Ltd.</h3>
+                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Gearspect India Pvt. Ltd.</h3>
                             <p>Engineering organization for development of gear measuring instruments</p>
                             <p>104, S.V. Industrial Estate, Handewadi Road Hadapsar, Pune 411028, Maharashtra, India</p>
-                            <a class="btn-two" href="#">Find us on Map<span class="icon-thin-right-arrow"></span></a>     
                         </div>
                     </div>
                 </div>
@@ -105,7 +87,7 @@
 
 
 <!--Start Checkout area-->
-<section class="checkout-area" style="padding-top:0px;margin-bottom:40px;">
+<section class="checkout-area" id="checkout-area">
     <div class="container">
         <div class="row">
 			<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -113,13 +95,13 @@
 					<div class="title"><span>How Can We Help?</span></div>
 				</div>
             </div>
-            <div class="col-xl-8 col-lg-8 col-md-12 col-sm-12">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="form shipping-info">
                     <form method="post" action="checkout.html">
-                        <div class="row">
+                        <div class="row col-xl-8 col-lg-8 col-md-12 col-sm-12 f-l">
 							<div class="col-md-5">
 								<div class="col-md-12">
-									<div class="field-label"><h3 style="padding: 0px 0px 15px 0px;color:#005aab;">Gear Cutting Machines</h3></div>
+									<div class="field-label"><h3>Gear Cutting Machines</h3></div>
 									<div class="field-input">
 										<div class="option-block">
 											<div class="checkbox">
@@ -290,7 +272,7 @@
 							</div>	
                             <div class="col-md-7">
 								<div class="col-md-12">
-									<div class="field-label"><h3 style="padding: 0px 0px 15px 0px;color:#005aab;">Gear Measuring Instruments</h3></div>
+									<div class="field-label"><h3>Gear Measuring Instruments</h3></div>
 									<div class="field-input">
 										<div class="option-block">
 											<div class="checkbox">
@@ -424,73 +406,58 @@
 								</div>
 							</div>
                         </div>    
-                    <!--/form-->
-                <!--/div>    
-            </div>
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="form billing-info"-->
-                    <!--form method="post" action="checkout.html"-->
+                    
                         <div class="row col-xl-4 col-lg-4 col-md-12 col-sm-12 f-r n-p n-m">
                             <div class="col-md-12">
-                                <!--div class="contact-form">First Name*</div-->
                                 <div class="field-input">
                                     <input type="text" name="fname" placeholder="First Name*" required>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <!--div class="contact-form">Last Name *</div-->
                                 <div class="field-input">
                                     <input type="text" name="lname" placeholder="Last Name*" required>
                                 </div>
                             </div>
 							<div class="col-md-12">
-                                <!--div class="contact-form">Company*</div-->
                                 <div class="field-input">
                                     <input type="text" name="companyname" placeholder="Company*" required>
                                 </div>
                             </div>
                             <div class="col-md-6">
-                                <!--div class="contact-form">City *</div-->
                                 <div class="field-input">
                                     <input type="text" name="Cityname" placeholder="City*" required>
                                 </div>
                             </div>
 							<div class="col-md-6">
-                                <!--div class="contact-form">Country *</div-->
                                 <div class="field-input">
                                     <input type="text" name="countryname" placeholder="Country*" required>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <!--div class="contact-form">Email *</div-->
                                 <div class="field-input">
                                     <input type="text" name="emailname" placeholder="Email*" required>
                                 </div>
                             </div>
 							<div class="col-md-12">
-                                <!--div class="contact-form">Phone *</div-->
                                 <div class="field-input">
                                     <input type="text" name="phonename" placeholder="Phone*" required>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <!--div class="contact-form">Website *</div-->
                                 <div class="field-input">
                                     <input type="text" name="websitename" placeholder="Website*" required>
                                 </div>
                             </div>
                             <div class="col-md-12">
-                                <!--div class="contact-form">Address *</div-->
                                 <div class="field-input">
                                     <textarea type="text" name="address" placeholder="Address*" style="border: 1px solid #cccccc;" required></textarea>
                                 </div>
                             </div>
 							<div class="col-md-12">
-				<div class="placeorder-button text-right">
-					<!--a class="btn-one" href="#">Submit <span class="icon-thin-right-arrow"></span></a-->
-						<button  class="btn-one" type="submit" name="submit" value="submit">Send Message</button>
-				</div>   
-			</div> 
+								<div class="placeorder-button text-right">
+									<button  class="btn-one" type="submit" name="submit" value="submit">Send Message</button>
+								</div>   
+							</div> 
                         </div>    
                     </form>
                 </div>    
@@ -504,7 +471,7 @@
 					$varchecbox="Product : ".implode("<br>",$_POST['payus']);
 				}
 				
-				 $varfname= $_POST['fname'];
+				$varfname= $_POST['fname'];
 				$varlname= $_POST['lname'];
 				$companyname= $_POST['companyname'];
 				$Cityname= $_POST['Cityname'];
@@ -516,25 +483,21 @@
 				
 				//$message= $varchecbox;
 				
-				 $to = "deva.shinde1@gmail.com";
-				 $subject = "Enquiry form";
-				 
-						$message = "Full Name : ".$varfname." ".$varlname."<br>Company Name : ".$companyname." <br>Email :".$emailname."<br>Phone : ".$phonename."<br>Web Site :".$websitename."<br>Country : ".$countryname."<br>City : ".$Cityname."<br>Address : ".$address."<br>".$varchecbox;
-				 
-				/*  else {
-					 $message = "First Name : ".$varfname." ".$varlname."<br>Subject : Inquery form <br>Email :".$emailname."<br>Phone : ".$phonename."<br>Web Site :".$websitename."<br>Address : ".$address."<br>";
-				 } */
-				 $header = "From:deva.shinde1@gmail.com \r\n";
-				 $header .= "MIME-Version: 1.0\r\n";
-				 $header .= "Content-type: text/html\r\n";
-				 echo $message;
-				/* $retval = mail ($to,$subject,$message,$header);
-				 
-				 if( $retval == true ) {
+				$to = "deva.shinde1@gmail.com";
+				$subject = "You have one enquiry from ".$companyname;				 
+				$message = "Full Name : ".$varfname." ".$varlname."<br>Company Name : ".$companyname." <br>Email :".$emailname."<br>Phone : ".$phonename."<br>Web Site :".$websitename."<br>Country : ".$countryname."<br>City : ".$Cityname."<br>Address : ".$address."<br>".$varchecbox;
+				$header = "From:deva.shinde1@gmail.com \r\n";
+				$header .= "MIME-Version: 1.0\r\n";
+				$header .= "Content-type: text/html\r\n";
+				echo $message;
+				/* 
+				$retval = mail ($to,$subject,$message,$header);				 
+				if( $retval == true ) {
 					echo "Message sent successfully...";
-				 }else {
+				}else {
 					echo "Message could not be sent...";
-				 } */
+				} 
+				*/
 			}
 			?>
 			<script>
@@ -547,19 +510,14 @@
 					$('.sub_'+_class+' input:checkbox').prop('checked',false); 
 				}					
 			}
-			</script>			
-			<!--div class="col-md-12">
-				<div class="placeorder-button text-right">
-					<a class="btn-one" href="#">Submit <span class="icon-thin-right-arrow"></span></a>
-				</div>   
-			</div--> 
+			</script>
         </div>
     </div>
 </section>         
 <!--End Checkout area-->
 
 <!--Start Branches section-->
-<section class="branches-section">
+<section class="branches-section" id="branches-section">
     <div class="container inner-content">
         <div class="row">
             <div class="col-xl-12">
