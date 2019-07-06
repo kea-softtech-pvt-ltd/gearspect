@@ -6,7 +6,7 @@ jobs:
      steps:
        - checkout
        - run: npm install
-       - run: node .circleci/deploy.js
+       - run: npm run ftp-deploy
        - run: echo "WE'RE ONLINE"
 
 workflows:
