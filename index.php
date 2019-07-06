@@ -109,36 +109,13 @@
 </section>
 <!--End Choose area style2-->
 
-<style>
-.custom_home .owl-theme .owl-nav [class*="owl-"] {
-    background: #fff;
-}
-.custom_home .owl-theme .owl-nav [class*="owl-"]:hover {
-    background: #fff;
-}
-.custom_home .owl-carousel .owl-stage-outer .owl-item.active .single-branches-box {
-    transform: translateY(0px);
-    -webkit-box-shadow: 0px 0px 0px 0px #f0eef9;
-    box-shadow: 0px 0px 0px 0px #f0eef9;
-    border: 1px solid transparent;
-}
-#testimonial-area .owl-nav{
-    position: absolute;
-    width: 100%;
-}
-#testimonial-area .company-logo, #testimonial-area .text {
-	margin: 0 auto;
-	text-align: justify;
-}
-</style>
-
 <!--Start Branches section-->
-<section class="branches-section custom_home" style="background-color: #4d4d4d;">
+<section class="branches-section custom_home">
     <div class="container inner-content">
         <div class="row">
             <div class="col-xl-12">
                 <div class="sec-title branches_s2_title">
-                    <div class="title"><span style="color: #fff;">Valuable clients</span></div>
+                    <div class="title"><span class="white">Valuable clients</span></div>
                 </div>
                 <div class="branches_s2_text">
                    
@@ -149,28 +126,28 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="branches-carousel owl-carousel owl-theme">
                     <!--Start Single Branches Box-->
-                    <div class="single-branches-box" style="padding: 0px;border:none;">
-                        <a href="#"><img src="images/brand/1.png" alt="Awesome Brand Image"></a>
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/1.png" alt="Brand Image"></a>
                     </div>
                     <!--End Single Branches Box-->
                     <!--Start Single Branches Box-->
-                    <div class="single-branches-box" style="padding: 0px;border:none;">
-                        <a href="#"><img src="images/brand/2.png" alt="Awesome Brand Image"></a>
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/2.png" alt="Brand Image"></a>
                     </div>
                     <!--End Single Branches Box-->
                     <!--Start Single Branches Box-->
-                    <div class="single-branches-box" style="padding: 0px;border:none;">
-                        <a href="#"><img src="images/brand/3.png" alt="Awesome Brand Image"></a>
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/3.png" alt="Brand Image"></a>
                     </div>
                     <!--End Single Branches Box-->
 					<!--Start Single Branches Box-->
-                    <div class="single-branches-box" style="padding: 0px;border:none;">
-                        <a href="#"><img src="images/brand/4.png" alt="Awesome Brand Image"></a>
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/4.png" alt="Brand Image"></a>
                     </div>
                     <!--End Single Branches Box-->
 					<!--Start Single Branches Box-->
-                    <div class="single-branches-box" style="padding: 0px;border:none;">
-                        <a href="#"><img src="images/brand/1.png" alt="Awesome Brand Image"></a>
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/1.png" alt="Brand Image"></a>
                     </div>
                     <!--End Single Branches Box-->
                 </div> 
@@ -181,10 +158,9 @@
 <!--End Branches section-->
 
 <!--Start Testimonial Area-->
-<section class="testimonial-area" id="testimonial-area" style="background: #f8f7ff;">
+<section class="testimonial-area" id="testimonial-area">
     <div class="container">
         <div class="row">
-              
             <div class="col-xl-12">
                 <div class="testimonial-content clearfix  text-center">
                     <div class="sec-title center text-center">
@@ -231,8 +207,6 @@
 </section>
 <!--End Testimonial Area-->
 
-
-
 <!--Start Latest Blog Area S2-->
 <section class="latest-blog-area-s2">
     <div class="container">
@@ -266,7 +240,7 @@
             </div>
             <div class="col-xl-6 col-lg-6">
                 <div class="single-blog-style2 image-box">
-                    <img src="images/blog/latest-blog-1.jpg" alt="Awesome Image">
+                    <img src="images/blog/latest-blog-1.jpg" alt="Image">
                     <div class="overlay-box">
                         <ul class="meta-info">
                             <li><a href="#"><span class="icon-document"></span>Engineering</a></li>
