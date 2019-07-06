@@ -7722,7 +7722,10 @@ select:focus {
     display: block;
     top: 98px;
     z-index: 999;
-    left: 23%;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
 }
 .categories-box{
     display: block;
