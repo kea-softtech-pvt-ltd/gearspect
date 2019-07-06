@@ -2,9 +2,9 @@ var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
  
 var config = {
-    user: "user",                   // NOTE that this was username in 1.x 
-    password: "password",           // optional, prompted if none given
-    host: "ftp.someserver.com",
+    user: process.env.FTPUSERNAME,                   // NOTE that this was username in 1.x 
+    password: process.env.FTPPASS,           // optional, prompted if none given
+    host: process.env.FTPHOST,
     port: 21,
     localRoot: __dirname + '/',
     remoteRoot: '/',
