@@ -1,12 +1,13 @@
 var FtpDeploy = require('ftp-deploy');
 var ftpDeploy = new FtpDeploy();
- console.log(process.env)
+ console.log(process.env, __dirname)
 var config = {
     username: process.env.FTPUSERNAME,
     password: process.env.FTPPASS,
     host: process.env.FTPHOST,
+    port: 21,
     localRoot: __dirname + "/gearspect",
-    remoteRoot: "/gearspect.keasofttech.com/",
+    remoteRoot: "/home/tourdekonkan/gearspect.keasofttech.com/",
     include: ['*']
 }
     
