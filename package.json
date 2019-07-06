@@ -4,7 +4,7 @@
   "description": "��#\u0000 \u0000g\u0000e\u0000a\u0000r\u0000s\u0000p\u0000e\u0000c\u0000t\u0000\r\u0000 \u0000#\u0000 \u0000a\u0000d\u0000d\u0000e\u0000d\u0000 \u0000d\u0000e\u0000v\u0000a\u0000",
   "main": "index.js",
   "scripts": {
-    "ftp-deploy": "node .circleci/deploy.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,8 +16,7 @@
     "url": "https://github.com/kea-softtech-pvt-ltd/gearspect/issues"
   },
   "homepage": "https://github.com/kea-softtech-pvt-ltd/gearspect#readme",
-  "dependencies": {
-    "ftp": "^0.3.10",
-    "glob": "^7.1.4"
+  "devDependencies": {
+    "ftp-deploy": "^2.3.3"
   }
 }

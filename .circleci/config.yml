@@ -6,7 +6,7 @@ jobs:
      steps:
        - checkout
        - run: npm install
-       - run: npm run ftp-deploy
+       - run: node deploy.js
        - run: echo "WE'RE ONLINE"
 
 workflows:
