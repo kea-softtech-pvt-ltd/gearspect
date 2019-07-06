@@ -116,7 +116,9 @@ function gMap () {
                 lng: mapLng,
                 styles: styles,
                 zoom: mapZoom
-            });
+			});
+			
+			var latlngbounds = new google.maps.LatLngBounds();
             // if icon path setted then show marker
             if(iconPath) {
                 $.each(markers, function (index, value) {
@@ -129,17 +131,24 @@ function gMap () {
                         index[3] = iconPath;
                     };
             
-                    map.addMarker({
+                    var marker = map.addMarker({
                         icon: index[3],                        
                         lat: index[0],
                         lng: index[1],
                         infoWindow: {
                           content: html
                         }
-                    });   
+					}); 
+					latlngbounds.extend(marker.position);  
 
                 });
-        	}
+			}
+			
+			//var bounds = new google.maps.LatLngBounds();
+ 
+			//Center map and adjust Zoom based on the position of all markers.
+			map.setCenter(latlngbounds.getCenter());
+			map.fitBounds(latlngbounds);
         });  
 	};
 }
