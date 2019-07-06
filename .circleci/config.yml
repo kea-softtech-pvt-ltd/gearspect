@@ -1,8 +1,20 @@
 version: 2
- jobs:
+jobs:
    build:
      docker:
-       - image: circleci/ruby:2.4.1
+       - image: circleci/node:latest
      steps:
        - checkout
-       - run: echo "A first hello"
+       - run: npm install
+       - run: node .circleci/deploy.js
+       - run: echo "WE'RE ONLINE"
+
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - master
