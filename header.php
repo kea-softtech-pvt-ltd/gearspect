@@ -98,7 +98,7 @@
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
                                     <li><a href="about.php">About us</a></li>
-                                    <li class="dropdown"><a href="project.php">GearSpect Europe</a>
+                                    <li class="dropdown"><a href="product.php">GearSpect Europe</a>
                                         <ul>
                                             <li><a href="#">Gear Grinding Machines</a></li>
                                             <li><a href="#">Gear Hobbing Machines</a></li>
@@ -108,7 +108,7 @@
 											<li><a href="#">Gear Deburring Machines</a></li>
                                         </ul>
                                     </li>
-									<li class="dropdown"><a href="project.php">GearSpect India</a>
+									<li class="dropdown"><a href="product.php">GearSpect India</a>
                                         <ul>
                                             <li><a href="#">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li>
                                             <li><a href="#">Gear Testers for inspection of cylindrical gears by double flank rolling method</a></li>

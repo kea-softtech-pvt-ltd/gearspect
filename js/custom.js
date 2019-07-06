@@ -636,13 +636,7 @@ if($('.lightbox-image').length) {
     });
 }
 
-
-
-
-
-
-
-
+/*
 //Contact Form Validation
 if($("#contact-form").length){
     $("#contact-form").validate({
@@ -720,12 +714,7 @@ if($("#appoinment-form").length){
         }
     });
 }
-
-
-
-
-
-
+*/
 
 // Dom Ready Function
 jQuery(document).on('ready', function () {

@@ -1,0 +1,12 @@
+RewriteEngine On
+# remove the index file
+RewriteCond %{THE_REQUEST} ^.*/index
+RewriteRule ^(.*)index$ http://localhost/gearspect/$1 [R=301,L]  
+
+# remove the .php extension 
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(([^/]+/)*[^.]+)$ http://localhost/gearspect/$1.php [L]
+
+# redirect from .php to less php
+RewriteCond %{THE_REQUEST} ^[A-Z]+\ /([^/]+/)*[^.#?\ ]+\.php([#?][^\ ]*)?\ HTTP/
+RewriteRule ^(([^/]+/)*[^.]+)\.php http://localhost/gearspect/$1 [R=301,L]

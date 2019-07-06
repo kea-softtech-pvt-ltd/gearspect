@@ -7831,7 +7831,6 @@ select:focus {
     border: 1px solid #f0eef9;
     margin-bottom: 40px;
     transition: all 500ms ease;
-    padding-bottom: 15px;
 }
 .single-product-item:hover{
     box-shadow: 0px 3px 8px #f0f0f0;
@@ -9998,4 +9997,36 @@ select:focus {
 	min-height: 279px;
 	padding: 30px 25px 0px 0px;
 	background-color: #f8f7ff;
+}
+#project-info {
+	padding: 35px 30px 10px;
+	min-height: 401px;
+	max-height: 401px;
+}
+#project-info .borderless td, .borderless th {
+    border: none;
+}
+#project-info .table th, #project-info .table td {
+    padding: 5px !important;
+}
+.video { 
+	position: relative; 
+}
+.video span {
+   position: absolute;
+   display: block;
+   height: 100%;
+   width: 100%;
+   top: -10px;
+   left: 0px;
+   color: red !important;
+}
+.video span:hover {
+    color: #d11d1d !important;
+    text-decoration: underline;
+}
+#related-product .img-holder {
+	-webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
+	box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.5);
 }
