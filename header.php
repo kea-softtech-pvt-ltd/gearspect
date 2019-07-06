@@ -82,7 +82,7 @@
             <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="header-style2 clearfix">
                     <div class="header-style2-logo float-left">
-                        <a href="index.php">
+                        <a href="./">
                             <img src="images/resources/logo.png" alt="Awesome Logo" style="max-width:97%;">
                         </a>
                     </div>   
@@ -97,8 +97,8 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li><a href="about.php">About us</a></li>
-                                    <li class="dropdown"><a href="product.php">GearSpect Europe</a>
+                                    <li><a href="about">About us</a></li>
+                                    <li class="dropdown"><a href="product">GearSpect Europe</a>
                                         <ul>
                                             <li><a href="#">Gear Grinding Machines</a></li>
                                             <li><a href="#">Gear Hobbing Machines</a></li>
@@ -108,7 +108,7 @@
 											<li><a href="#">Gear Deburring Machines</a></li>
                                         </ul>
                                     </li>
-									<li class="dropdown"><a href="product.php">GearSpect India</a>
+									<li class="dropdown"><a href="product">GearSpect India</a>
                                         <ul>
                                             <li><a href="#">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li>
                                             <li><a href="#">Gear Testers for inspection of cylindrical gears by double flank rolling method</a></li>
@@ -116,18 +116,18 @@
 											<li><a href="#">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
                                         </ul>
                                     </li>
-									<li class="dropdown"><a href="services.php">Services</a>
+									<li class="dropdown"><a href="services">Services</a>
                                         <ul>
-                                            <li><a href="ser-automotive.php">Gear testing</a></li>
+                                            <li><a href="ser-automotive">Gear testing</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact.php">Contact</a></li>
+                                    <li><a href="contact">Contact</a></li>
                                 </ul>
                             </div>
                         </nav>  
                     </div>
                     <div class="headers2 quote-button-box float-right">
-                        <a class="btn-one" href="#">Enquiry<span class="icon-thin-right-arrow"></span></a>
+                        <a class="btn-one" href="contact">Enquiry<span class="icon-thin-right-arrow"></span></a>
                     </div>  
                 </div>
             </div>
