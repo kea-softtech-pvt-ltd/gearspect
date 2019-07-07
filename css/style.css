@@ -9788,6 +9788,7 @@ select:focus {
     position: relative;
     display: block;
     padding: 100px 0 90px;
+    background: #cdcdcd;
 }
 .branches_s2_title {
     position: relative;
@@ -9949,7 +9950,7 @@ select:focus {
 	font-weight: 500;
 }
 .custom_home {
-	background-color: #4d4d4d;
+	background-color: #cdcdcd;
 }
 .custom_home .owl-theme .owl-nav [class*="owl-"] {
     background: #fff;

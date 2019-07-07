@@ -152,7 +152,173 @@
                     <!--End Single Branches Box-->
 					<!--Start Single Branches Box-->
                     <div class="single-branches-box">
-                        <a href="#"><img src="images/brand/1.png" alt="Brand Image"></a>
+                        <a href="#"><img src="images/brand/5.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/6.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/7.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/8.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/9.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/10.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/11.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/12.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/13.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/14.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/15.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/16.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/17.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/18.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/19.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/20.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/21.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/22.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/23.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/24.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/25.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/26.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/27.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/28.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/29.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+					<!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/30.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box-->
+                    <!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/31.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box--><!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/32.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box--><!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/33.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box--><!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/34.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box--><!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/35.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box--><!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/36.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box--><!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/37.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box--><!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/38.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box--><!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/39.png" alt="Brand Image"></a>
+                    </div>
+                    <!--End Single Branches Box--><!--Start Single Branches Box-->
+                    <div class="single-branches-box">
+                        <a href="#"><img src="images/brand/40.png" alt="Brand Image"></a>
                     </div>
                     <!--End Single Branches Box-->
                 </div> 
