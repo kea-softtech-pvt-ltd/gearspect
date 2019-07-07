@@ -1,12 +1,15 @@
 <?php
-    $pageWords = "Gear cutting machine, gear measuring instruments, gearspect, Gear Hobbing Machines, Gear Shaping Machines, Bevel Gear Grinding Machines, geometric deviation of cylindrical gears and gear cutting tools";
-    $pageDescription = "GearSpect-We are leading gear service provider";
-    $pageTitle = "GearSpect - Product";
-?>
-<?php include_once('header.php'); ?>   
+$pageWords = "Gear cutting machine, gear measuring instruments, gearspect, Gear Hobbing Machines, Gear Shaping Machines, Bevel Gear Grinding Machines, geometric deviation of cylindrical gears and gear cutting tools";
+$pageDescription = "GearSpect-We are leading gear service provider";
+$pageTitle = "GearSpect - Product";
+$url = ($_SERVER["REQUEST_URI"]);
+$query_str = base64_decode(parse_url(($url), PHP_URL_QUERY));
+$i = (empty($query_str))?1:$query_str;
+include_once('header.php'); 
+?>   
 
 <!--Start breadcrumb area-->     
-<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
+<section class="breadcrumb-area" style="background-image: url(images/re sources/breadcrumb-bg.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -21,63 +24,12 @@
 </section>
 <!--End breadcrumb area-->     
 
-<style>                           
-.how-can-help-box .inner-content ul li {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    border-bottom: 1px solid #e8e6f4;
-    padding: 5px 0px;
-    margin-bottom: 0px;
-}
-.how-can-help-box .inner-content ul {
-	margin-bottom: 0px !important;
-}
-
-.accordion {
-  background-color: #005fb3;
-  color: #fff;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-  transition: 0.4s;
-}
-
-.active, .accordion:hover {
-  background-color: #006dcc;
-}
-
-.accordion:after {
-  content: '\002B';
-  color: #fff;
-  font-weight: bold;
-  float: right;
-  margin-left: 5px;
-}
-
-#accordion .active:after {
-  content: "\2212";
-}
-
-.collapse-info {
-	display:none;
-	border: 1px solid #ddd;
-}
-.card-body .active_c {
-	color:red !important;
-	background-color: #fff;
-}
-</style>
 <!--Start Project single area-->
-<section class="project-single-area" style="padding: 50px 0 56px">
+<section class="project-single-area" id="product-single-area" style="padding: 50px 0 56px">
     <div class="container">	
 		<div class="related-product" id="related-product">
 			<div class="title">
-				<h3>Gear Grinding Machines</h3>
+				<h3>GearSpect Europe</h3>
 			</div>
         </div>		
         <div class="row">
@@ -87,59 +39,59 @@
 						<div class="container">
 							<div id="accordion" class="">
 								<div class="card mb-0">
-									<div class="card-header collapsed accordion" id="accordionOne" data-toggle="collapse" href="#collapseOne">
+									<div class="card-header collapsed accordion" id="accordion_1" data-toggle="collapse" href="#collapse_1">
 										<span>Gear Grinding Machines</span>
 									</div>
-									<div id="collapseOne" class="card-body collapse" data-parent="#accordion" >
-										<ul>
-											<li class="active_c" onclick="openTab(1);">SBO 340/400 CNC</li>
+									<div id="collapse_1" class="card-body collapse" data-parent="#accordion" >
+										<ul id="li_1">
+											<li onclick="openTab(1);">SBO 340/400 CNC</li>
 											<li onclick="openTab(2);">SBP 400 CNC</li>
 											<li onclick="openTab(3);">SBP 800/1250/2000 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" data-toggle="collapse" href="#collapseOne1">
+									<div class="card-header collapsed accordion" id="accordion_2" data-toggle="collapse" href="#collapse_2">
 										<span>Gear Hobbing Machines</span>
 									</div>
-									<div id="collapseOne1" class="card-body collapse" data-parent="#accordion" >
-										<ul>
-											<li>SF 90 CNC</li>
-											<li>SBO SF SF 150/250/350/500 CNC</li>
-											<li>SFH 160/250 CNC</li>
-											<li>SF 800/1000 CNC</li>
+									<div id="collapse_2" class="card-body collapse" data-parent="#accordion" >
+										<ul id="li_2">
+											<li onclick="openTab(4);">SF 90 CNC</li>
+											<li onclick="openTab(5);">SF 150/250/350/500 CNC</li>
+											<li onclick="openTab(6);">SFH 160/250 CNC</li>
+											<li onclick="openTab(6);">SF 800/1000 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" data-toggle="collapse" href="#collapseOne2">
+									<div class="card-header collapsed accordion" id="accordion_3" data-toggle="collapse" href="#collapse_3">
 										<span>Gear Shaping Machines</span>
 									</div>
-									<div id="collapseOne2" class="card-body collapse" data-parent="#accordion" >
-										<ul>
-											<li>OHA 16/32 CNC</li>
-											<li>SO 800 CNC</li>
+									<div id="collapse_3" class="card-body collapse" data-parent="#accordion" >
+										<ul id="li_3">
+											<li onclick="openTab(5);">OHA 16/32 CNC</li>
+											<li onclick="openTab(6);">SO 800 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" data-toggle="collapse" href="#collapseOne3">
+									<div class="card-header collapsed accordion" id="accordion_4" data-toggle="collapse" href="#collapse_4">
 										<span>Bevel Gear Grinding Machines</span>
 									</div>
-									<div id="collapseOne3" class="card-body collapse" data-parent="#accordion" >
-										<ul>
-											<li>SBK 350/600/1000 CNC</li>
+									<div id="collapse_4" class="card-body collapse" data-parent="#accordion" >
+										<ul id="li_4">
+											<li onclick="openTab(7);">SBK 350/600/1000 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" data-toggle="collapse" href="#collapseOne4">
+									<div class="card-header collapsed accordion" id="accordion_5" data-toggle="collapse" href="#collapse_5">
 										<span>Bevel Gear Hobbing Machines</span>
 									</div>
-									<div id="collapseOne4" class="card-body collapse" data-parent="#accordion" >
-										<ul>
-											<li>SFK 200 CNC</li>
+									<div id="collapse_5" class="card-body collapse" data-parent="#accordion" >
+										<ul id="li_5">
+											<li onclick="openTab(8);">SFK 200 CNC</li>
 											<li>SFK 350/600/1000 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" data-toggle="collapse" href="#collapseOne5">
+									<div class="card-header collapsed accordion" id="accordion_6" data-toggle="collapse" href="#collapse_6">
 										<span>Gear Deburring Machines</span>
 									</div>
-									<div id="collapseOne5" class="card-body collapse" data-parent="#accordion" >
-										<ul>
-											<li>GT 600</li>
+									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
+										<ul id="li_6">
+											<li onclick="openTab(9);">GT 600</li>
 										</ul>
 									</div>
 								</div>
@@ -149,7 +101,7 @@
                 </div>      
             </div>
 			<div class="col-xl-9 col-lg-12">
-				<div class="row collapse-info" id="collapseOne_1">
+				<div class="row collapse-info" id="collapseOpen_1">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
@@ -201,7 +153,7 @@
 						</table>	
 					</div>	
 				</div> 
-				<div class="row collapse-info" id="collapseOne_2">
+				<div class="row collapse-info" id="collapseOpen_2">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
@@ -249,7 +201,7 @@
 						</table>	
 					</div>	
 				</div> 
-				<div class="row collapse-info" id="collapseOne_3">
+				<div class="row collapse-info" id="collapseOpen_3">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
@@ -300,7 +252,59 @@
 							<tbody>
 						</table>	
 					</div>	
-				</div> 				
+				</div>
+				<div class="row collapse-info" id="collapseOpen_4">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>SBP 800/1250/2000 CNC4</h3>
+								<p>Form Gear Grinding machine, 6 axes CNC controlled profile vertical gear grinder with high mechanical rigidity. High operating accuracy is ensured by temperature stabilization of machine's main parts.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>SBP 800 CNC</th>
+								<th>SBP 1250 CNC</th>
+								<th>SBP 2000 CNC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Max. workpiece dia</td>
+									<td>800 mm</td>
+									<td>1250 mm</td>
+									<td>2000 mm</td>
+								</tr>
+								<tr>
+									<td>Max. module</td>
+									<td>20 mm</td>
+									<td>25 mm</td>
+									<td>35 mm</td>
+								</tr>
+								<tr>
+									<td>Max. tooth width</td>
+									<td>400 mm</td>
+									<td>700 mm</td>
+									<td>1000 mm</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>  				
             </div>   
         </div>
     </div>
@@ -378,27 +382,40 @@ for (i = 0; i < acc.length; i++) {
 	});
 }
 
+function setAccordian(_a) {
+	var _cnt = 1;
+	for(var i=1; i<_a; i++) {		
+		_cnt += $('ul#li_'+i+' li').length;
+	}
+	$('.collapse-info').hide();
+	$('#collapseOpen_'+_cnt).show();
+	$('#collapse_'+_a+' li:first').addClass("active_c");
+}
+
 function openTab(_id) {
 	$('.collapse-info').hide();
-	$('#collapseOne_'+_id).show();
+	$('#collapseOpen_'+_id).show();
+	$('#collapse_'+_id+' li:first').addClass("active_c"); 
+}
+
+function getSearchParams(k){
+	var p={};
+	location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi,function(s,k,v){p[k]=v})
+	return k?p[k]:p;
 }
 
 $(document).ready(function(){
 	
-	openTab(1);
+	var _m = '<?php echo $i; ?>';
 	
-	$('#accordionOne').click();
+	setAccordian(_m);
+	$('#accordion_'+_m).click();
 	
-	// When we click on the LI
 	$("li").click(function(){
-	  // If this isn't already active
-	  if (!$(this).hasClass("active_c")) {
-		// Remove the class from anything that is active
-		$("li.active_c").removeClass("active_c");
-		// And make this active
-		$(this).addClass("active_c");
-	  }
+		if (!$(this).hasClass("active_c")) {
+			$("li.active_c").removeClass("active_c");
+			$(this).addClass("active_c");
+		}
 	});
-	
 })
 </script>

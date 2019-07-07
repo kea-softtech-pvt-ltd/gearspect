@@ -101,12 +101,12 @@
                                     <li><a href="about">About us</a></li>
                                     <li class="dropdown"><a href="product">GearSpect Europe</a>
                                         <ul>
-                                            <li><a href="#">Gear Grinding Machines</a></li>
-                                            <li><a href="#">Gear Hobbing Machines</a></li>
-											<li><a href="#">Gear Shaping Machines</a></li>
-											<li><a href="#">Bevel Gear Grinding Machines</a></li>
-											<li><a href="#">Bevel Gear Hobbing Machines</a></li>
-											<li><a href="#">Gear Deburring Machines</a></li>
+                                            <li><a href="product?<?php echo base64_encode(1);?>">Gear Grinding Machines</a></li>
+                                            <li><a href="product?<?php echo base64_encode(2);?>">Gear Hobbing Machines</a></li>
+											<li><a href="product?<?php echo base64_encode(3);?>">Gear Shaping Machines</a></li>
+											<li><a href="product?<?php echo base64_encode(4);?>">Bevel Gear Grinding Machines</a></li>
+											<li><a href="product?<?php echo base64_encode(5);?>">Bevel Gear Hobbing Machines</a></li>
+											<li><a href="product?<?php echo base64_encode(6);?>">Gear Deburring Machines</a></li>
                                         </ul>
                                     </li>
 									<li class="dropdown"><a href="product">GearSpect India</a>
