@@ -1,3 +1,8 @@
+<?php
+    $pageWords = "Gear cutting machine, gear measuring instruments, gearspect, Gear Hobbing Machines, Gear Shaping Machines, Bevel Gear Grinding Machines, geometric deviation of cylindrical gears and gear cutting tools";
+    $pageDescription = "GearSpect-We are leading gear service provider";
+    $pageTitle = "GearSpect - Home";
+?>
 <?php include_once('header.php'); ?>
     
 <!--Main Slider-->

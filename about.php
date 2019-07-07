@@ -1,3 +1,8 @@
+<?php
+    $pageWords = "Gearspect, history, team, achievements";
+    $pageDescription = "We offer product design, engineering and manufacturing management services for inspiring new businesses.";
+    $pageTitle = "GearSpect - About us";
+?>
 <?php include_once('header.php'); ?> 
 
 <!--Start breadcrumb area-->     

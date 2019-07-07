@@ -1,3 +1,8 @@
+<?php
+    $pageWords = "Gearspect, customer support, sales, marketting";
+    $pageDescription = "GearSpect-We are leading gear service provider";
+    $pageTitle = "GearSpect - Contact us";
+?>
 <?php include_once('header.php'); ?>   
 
 <!--Start Google Map Area-->

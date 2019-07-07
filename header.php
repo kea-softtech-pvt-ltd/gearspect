@@ -3,14 +3,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
 <head>
 	<meta charset="UTF-8">
-	<title>Gear Spect - By Kea</title>
+	<title><?php echo $pageTitle;?></title>
 
 	<!-- responsive meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- For IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	
-    
+	<meta name="keywords" content="<?php echo $pageWords; ?>">
+    <meta name="description" content="<?php echo $pageDescription; ?>">
+
 	<!-- master stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 	<!-- Responsive stylesheet -->
