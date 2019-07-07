@@ -269,8 +269,8 @@ include_once('header.php');
 					<div class="col-xl-5 col-lg-12 f-r">
 						<div class="project-info" id="project-info">
 							<div class="title">
-								<h3>SBP 800/1250/2000 CNC4</h3>
-								<p>Form Gear Grinding machine, 6 axes CNC controlled profile vertical gear grinder with high mechanical rigidity. High operating accuracy is ensured by temperature stabilization of machine's main parts.</p>
+								<h3>SF 90 CNC</h3>
+								<p>Gear Hobbing machine with high rate of productivity. Modern mechanical design with torque motor ensures excellent dynamics machine characteristics for efficient utilisation of tools.</p>
 							</div>							
 						</div>
 					</div>  
@@ -278,28 +278,20 @@ include_once('header.php');
 						<table class="table table-striped borderless">
 							<thead>
 								<th></th>
-								<th>SBP 800 CNC</th>
-								<th>SBP 1250 CNC</th>
-								<th>SBP 2000 CNC</th>
+								<th>SF 90 CNC</th>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Max. workpiece dia</td>
-									<td>800 mm</td>
-									<td>1250 mm</td>
-									<td>2000 mm</td>
+									<td>Max. workpiece dia.</td>
+									<td>80 mm</td>
 								</tr>
 								<tr>
 									<td>Max. module</td>
-									<td>20 mm</td>
-									<td>25 mm</td>
-									<td>35 mm</td>
+									<td>2.5 mm</td>
 								</tr>
 								<tr>
-									<td>Max. tooth width</td>
-									<td>400 mm</td>
-									<td>700 mm</td>
-									<td>1000 mm</td>
+									<td>Horizontal work range</td>
+									<td>210 mm</td>
 								</tr>
 							<tbody>
 						</table>	
