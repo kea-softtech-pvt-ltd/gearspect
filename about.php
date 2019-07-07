@@ -225,7 +225,7 @@
 <!--End team area-->                                                                              
 
 <!--Start Certifications area-->
-<section class="certifications-area" style="background-image:url(images/parallax-background/certifications-bg.jpg);">
+<section class="certifications-area">
     <div class="container">
         <div class="sec-title certifications-title max-width center text-center">
             <div class="title"><span>Certifications</span></div>
