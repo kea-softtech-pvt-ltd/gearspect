@@ -1,4 +1,8 @@
-
+<?php 
+session_start();
+if(!isset($_SESSION['lang'])){ $_SESSION['lang'] = "en"; }
+include_once('lang/'.$_SESSION['lang'].'.php'); 
+?>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
 <head>
@@ -43,20 +47,20 @@
                     <div class="top-left-style2 float-left clearfix">
                         <div class="language-switcher">
                             <div id="polyglotLanguageSwitcher">
-                                <form action="#">
+                                <form action="">
                                     <select id="polyglot-language-options">
-                                        <option id="en" value="en" selected>English</option>
-                                        <option id="fr" value="fr">French</option>
-                                        <option id="de" value="de">German</option>
-                                        <option id="it" value="it">Italian</option>
-                                        <option id="es" value="es">Spanish</option>
+                                        <option id="en" value="en" <?php if($_SESSION['lang']=='en') echo "selected"; ?>>English</option>
+                                        <option id="fr" value="fr" <?php if($_SESSION['lang']=='fr') echo "selected"; ?>>French</option>
+                                        <option id="de" value="de" <?php if($_SESSION['lang']=='en') echo "selected"; ?>>German</option>
+                                        <option id="it" value="it" <?php if($_SESSION['lang']=='en') echo "selected"; ?>>Italian</option>
+                                        <option id="es" value="es" <?php if($_SESSION['lang']=='en') echo "selected"; ?>>Spanish</option>
                                     </select>
                                 </form>
                             </div>
                         </div>
                         <div class="top-contact-info">
                             <ul>
-                                <li><span class="icon-phone"></span> Talk to us: <b>+91 9005-765-321</b></li>
+                                <li><span class="icon-phone"></span> <?php echo $lang['header']['talk_to_us']; ?>: <b>+91 9005-765-321</b></li>
                                 <li><span class="icon-email"></span> sales@gearspect.com</li>
                             </ul>    
                         </div> 
@@ -87,7 +91,7 @@
                             <img src="images/resources/logo.png" alt="Awesome Logo" style="max-width:97%;">
                         </a>
                     </div>   
-                    <div class="headers2-header-right float-left">
+                    <div class="headers2-header-right float-right">
                         <nav class="main-menu style2 clearfix">
                             <div class="navbar-header clearfix">   	
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -98,8 +102,8 @@
                             </div>
                             <div class="navbar-collapse collapse clearfix">
                                 <ul class="navigation clearfix">
-                                    <li><a href="about">About us</a></li>
-                                    <li class="dropdown"><a href="product">GearSpect Europe</a>
+                                    <li><a href="about"><?php echo $lang['menu']['about_us']; ?></a></li>
+                                    <li class="dropdown"><a href="product"><?php echo $lang['menu']['eroupe']; ?></a>
                                         <ul>
                                             <li><a href="product?<?php echo base64_encode(1);?>">Gear Grinding Machines</a></li>
                                             <li><a href="product?<?php echo base64_encode(2);?>">Gear Hobbing Machines</a></li>
@@ -109,27 +113,27 @@
 											<li><a href="product?<?php echo base64_encode(6);?>">Gear Deburring Machines</a></li>
                                         </ul>
                                     </li>
-									<li class="dropdown"><a href="product">GearSpect India</a>
+									<li class="dropdown"><a href="productind"><?php echo $lang['menu']['india']; ?></a>
                                         <ul>
-                                            <li><a href="#">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li>
-                                            <li><a href="#">Gear Testers for inspection of cylindrical gears by double flank rolling method</a></li>
-											<li><a href="#">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
-											<li><a href="#">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
+                                            <li><a href="productind?<?php echo base64_encode(1);?>">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li>
+                                            <li><a href="productind?<?php echo base64_encode(2);?>">Gear Testers for inspection of cylindrical gears by double flank rolling method</a></li>
+											<li><a href="productind?<?php echo base64_encode(3);?>">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
+											<li><a href="productind?<?php echo base64_encode(4);?>">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
                                         </ul>
                                     </li>
-									<li class="dropdown"><a href="services">Services</a>
+									<li class="dropdown"><a href="services"><?php echo $lang['menu']['services']; ?></a>
                                         <ul>
                                             <li><a href="ser-automotive">Gear testing</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact">Contact</a></li>
+                                    <li><a href="contact"><?php echo $lang['menu']['contact']; ?></a></li>
                                 </ul>
                             </div>
                         </nav>  
                     </div>
-                    <div class="headers2 quote-button-box float-right">
+                    <!--div class="headers2 quote-button-box float-right">
                         <a class="btn-one" href="contact">Enquiry<span class="icon-thin-right-arrow"></span></a>
-                    </div>  
+                    </div-->  
                 </div>
             </div>
         </div>

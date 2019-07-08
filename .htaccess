@@ -3,6 +3,7 @@ RewriteEngine On    # Turn on the rewriting engine
 RewriteRule    ^/?$    index.php
 RewriteRule    ^contact/?$    contact.php
 RewriteRule    ^product/?$    product.php
+RewriteRule    ^productind/?$    productind.php
 RewriteRule    ^about/?$    about.php
 RewriteRule    ^services/?$    services.php
 RewriteRule    ^career/?$    career.php

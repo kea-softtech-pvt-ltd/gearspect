@@ -526,7 +526,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="sec-title branches_s2_title">
-                    <div class="title"><span>Employees Contact</span></div>
+                    <div class="title"><span class="white">Employees Contact</span></div>
                 </div>
             </div>
         </div>
