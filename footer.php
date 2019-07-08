@@ -8,10 +8,9 @@
                     <div class="copyright-text float-left">
                         <p>© 2019 by <a href="#">GearSpect.</a> All Rights Reserved</p>
                     </div>
-                    <!--ul class="footer-menu float-right">
-                        <li><a href="#">TERMS OF USE</a></li>
-                        <li><a href="#">PRIVACY</a></li>
-                    </ul-->
+                    <ul class="footer-menu float-right">
+                        <li><a href="career">CAREER</a></li>
+                    </ul>
                 </div>   
             </div>
         </div>
