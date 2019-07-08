@@ -46,7 +46,7 @@ include_once('header.php');
 										<ul id="li_1">
 											<li onclick="openTab(1);">DO 3 PC</li>
 											<li onclick="openTab(2);">DO 300/500 CNC</li>
-											<li onclick="openTab(3);">DO 300/500 CNC</li>
+											<li onclick="openTab(3);">DO 800 CNC</li>
 										</ul>
 									</div>
 									<div class="card-header collapsed accordion" id="accordion_2" data-toggle="collapse" href="#collapse_2">
@@ -54,10 +54,10 @@ include_once('header.php');
 									</div>
 									<div id="collapse_2" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_2">
-											<li onclick="openTab(4);">SF 90 CNC</li>
-											<li onclick="openTab(5);">SF 150/250/350/500 CNC</li>
-											<li onclick="openTab(6);">SFH 160/250 CNC</li>
-											<li onclick="openTab(7);">SF 800/1000 CNC</li>
+											<li onclick="openTab(4);">DO 0 PC</li>
+											<li onclick="openTab(5);">DO 1 PC</li>
+											<!--li onclick="openTab(6);">DO 1 D PC</li-->
+											<li onclick="openTab(7);">DO 1 W PC</li>
 										</ul>
 									</div>
 									<div class="card-header collapsed accordion" id="accordion_3" data-toggle="collapse" href="#collapse_3">
@@ -65,8 +65,9 @@ include_once('header.php');
 									</div>
 									<div id="collapse_3" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_3">
-											<li onclick="openTab(8);">OHA 16/32 CNC</li>
-											<li onclick="openTab(9);">SO 800 CNC</li>
+											<li onclick="openTab(8);">DO 2 PC</li>
+											<li onclick="openTab(9);">DO 2 S PC</li>
+											<li onclick="openTab(10);">DO 2 K PC</li>
 										</ul>
 									</div>
 									<div class="card-header collapsed accordion" id="accordion_4" data-toggle="collapse" href="#collapse_4">
@@ -74,7 +75,9 @@ include_once('header.php');
 									</div>
 									<div id="collapse_4" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_4">
-											<li onclick="openTab(10);">SBK 350/600/1000 CNC</li>
+											<li onclick="openTab(11);">DO 140 K PC</li>
+											<li onclick="openTab(12);">ZLK 600 PC</li>
+											<li onclick="openTab(13);">IMO 1000 K CNC</li>
 										</ul>
 									</div>
 								</div>
@@ -248,6 +251,464 @@ include_once('header.php');
 						</table>	
 					</div>	
 				</div>
+				<div class="row collapse-info" id="collapseOpen_4">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 0 PC</h3>
+								<p>Test deviations of small diameters spur gears by double flank rolling method with master gear, scanning and evaluation by PC.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 0 PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Max. dia. of measured wheel	</td>
+									<td>2- 120 mm</td>
+								</tr>
+								<tr>
+									<td>Clamping between centres</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Min/max. module	</td>
+									<td>0.1 – 2 mm</td>
+								</tr><tr>
+									<td>Min/Max. distance between centres	</td>
+									<td>35 -125 mm</td>
+								</tr>
+								
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				<div class="row collapse-info" id="collapseOpen_5">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 1 PC</h3>
+								<p>Test deviations of double flank and Mdk of shafts and spur gears. Scanning and evaluation by PC.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 1 PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Max. dia. of measured wheel	</td>
+									<td>10- 320 mm</td>
+								</tr>
+								<tr>
+									<td>Clamping between centres</td>
+									<td>180/280 mm</td>
+								</tr>
+								<tr>
+									<td>Min/max. module	</td>
+									<td>0.5 – 8 mm</td>
+								</tr><tr>
+									<td>Min/Max. distance between centres	</td>
+									<td>5 -250 mm</td>
+								</tr>
+								
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				<div class="row collapse-info" id="collapseOpen_7">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 1 W PC</h3>
+								<p>Test deviations of double flank and Mdk of internal gears.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 1 W PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Max. dia. of measured wheel	</td>
+									<td>10- 320 mm</td>
+								</tr>
+								<tr>
+									<td>Clamping between centres</td>
+									<td>180/280 mm</td>
+								</tr>
+								<tr>
+									<td>Min/max. module	</td>
+									<td>0.5 – 8 mm</td>
+								</tr><tr>
+									<td>Min/Max. distance between centres	</td>
+									<td>30 - 140 mm</td>
+								</tr>
+								
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				<div class="row collapse-info" id="collapseOpen_8">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 2 PC</h3>
+								<p>Test deviations of worm gears by single flank rolling method, evaluation according to DIN and AGMA standards with output on PC.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 2 PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Max. dia. of measured wheel	</td>
+									<td>10- 320 mm</td>
+								</tr>
+								<tr>
+									<td>Clamping between centres</td>
+									<td>180/280 mm</td>
+								</tr>
+								<tr>
+									<td>Min/max. module	</td>
+									<td>0.5 – 8 mm</td>
+								</tr><tr>
+									<td>Min/Max axis distance	</td>
+									<td>65-315 mm</td>
+								</tr>
+								
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+                <div class="row collapse-info" id="collapseOpen_9">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 2 S PC</h3>
+								<p>Measuring instrument for testing worm gearing by single flank rolling method. Scanning and evaluation by PC.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 2 S PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min/Max. dia. of worm	</td>
+									<td>10/110 mm</td>
+								</tr>
+								<tr>
+									<td>Min/Max axis distance	</td>
+									<td>20/310 mm</td>
+								</tr>
+								<tr>
+									<td>Max length of worm between centres</td>
+									<td>700 mm</td>
+								</tr>
+								<tr>
+									<td>Max. weight of worm	</td>
+									<td>10 KG</td>
+								</tr>
+								<tr>
+									<td>Max. weight of worm wheel	</td>
+									<td>20 KG</td>
+								</tr>
+								<tr>
+									<td>Axis angle</td>
+									<td>90°</td>
+								</tr>
+								
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				 <div class="row collapse-info" id="collapseOpen_10">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 2 K PC</h3>
+								<p>Measuring instrument for testing of bevel gearing by single flank rolling method. Angle of crossed axes is 90°. Scanning and evaluation by PC.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 2 K PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Max. outside dia. of measured pinion 	</td>
+									<td>200 mm</td>
+								</tr>
+								<tr>
+									<td>Max. outside dia. of measured gear 		</td>
+									<td>250 mm</td>
+								</tr>
+								<tr>
+									<td>Assembly distance 	</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Shaft angle of measured bevel gearing 		</td>
+									<td>90°</td>
+								</tr>
+								<tr>
+									<td>Scanning accuracy 		</td>
+									<td>0.001°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				 <div class="row collapse-info" id="collapseOpen_11">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 140 K PC</h3>
+								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 140 K PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of measured pinion 	 	</td>
+									<td>10 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of measured wheel 	 		</td>
+									<td>140 mm</td>
+								</tr>
+								<tr>
+									<td>Max. assembly distance 	</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Angle of conical gearing axes 			</td>
+									<td>70-120°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				 <div class="row collapse-info" id="collapseOpen_12">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>ZLK 600 PC</h3>
+								<p>Measuring instrument for testing of big bevel gearing (and hypoid bevel gearing) by single flank rolling method. Scanning and evaluation by PC.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>ZLK 600 PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of pinion 	</td>
+									<td>30 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of wheel 	 		</td>
+									<td>600 mm</td>
+								</tr>
+								<tr>
+									<td>Travel range - Axis X 	</td>
+									<td>50 - 350 mm</td>
+								</tr>
+								<tr>
+									<td>Travel range - Axis Y 	 			</td>
+									<td>±50 mm</td>
+								</tr>
+								<tr>
+									<td>Travel range - Axis Z 	</td>
+									<td>0 - 100 mm</td>
+								</tr>
+								<tr>
+									<td>Angle between axes </td>
+									<td>90°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				 <div class="row collapse-info" id="collapseOpen_13">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>IMO 1000 K CNC</h3>
+								<p>Measuring instrument for testing of big bevel gearing by single flank rolling method. Scanning and evaluation by PC.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>IMO 1000 K CNC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of pinion 	</td>
+									<td>650 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of bevel 	</td>
+									<td>1000 mm</td>
+								</tr>
+								<tr>
+									<td>Min/Max. axial distance – Axis X 	 	</td>
+									<td>250 - 600 mm</td>
+								</tr>
+								<tr>
+									<td>Min/Max. axial distance – Axis Z 	</td>
+									<td>200 - 400 mm</td>
+								</tr>
+								<tr>
+									<td>Angle of conical gearing axes 		</td>
+									<td>90°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+
 
 				
             </div>   
