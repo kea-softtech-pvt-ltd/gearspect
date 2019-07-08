@@ -48,9 +48,16 @@ function languageSwitcher() {
             animSpeed: 500,
             testMode: true,
             onChange: function(evt) {
-                    alert("The selected language is: " + evt.selectedItem);
-                }
-
+                $.ajax({
+					url: "lang.php",
+					type: "post",
+					data: { lang : evt.selectedItem },
+					success: function (response) {
+						//alert("The selected language is: " + evt.selectedItem
+						location.reload();
+					}
+				});
+            }
         });
     };
 }
