@@ -1,8 +1,4 @@
-/***************************************************************************************************************
-||||||||||||||||||||||||||       MASTER STYLESHEET FOR SCREWER             |||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************
-||||||||||||||||||||||||||                TABLE OF CONTENT               |||||||||||||||||||||||||||||||||||||||
-****************************************************************************************************************
+/********************************************************************************************************
 ****************************************************************************************************************
 
 01. Imported styles
@@ -9980,7 +9976,8 @@ select:focus {
 }
 
 #checkout-area {
-	padding-top:0px;
+    padding-top:0px;
+    padding-bottom:30px;
 }                             
 #checkout-area h3 {
 	padding: 0px 0px 15px 0px;color:#005aab;
@@ -10042,6 +10039,7 @@ select:focus {
     border-bottom: 1px solid #e8e6f4;
     padding: 5px 0px;
     margin-bottom: 0px;
+    cursor:pointer;
 }
 #product-single-area .how-can-help-box .inner-content ul {
 	margin-bottom: 0px !important;
@@ -10081,6 +10079,7 @@ select:focus {
 	border: 1px solid #ddd;
 }
 #product-single-area .card-body .active_c {
-	color:red !important;
+    color: #333;
+    font-weight: 500;
 	background-color: #fff;
 }

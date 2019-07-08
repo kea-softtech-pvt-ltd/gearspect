@@ -5,3 +5,4 @@ RewriteRule    ^contact/?$    contact.php
 RewriteRule    ^product/?$    product.php
 RewriteRule    ^about/?$    about.php
 RewriteRule    ^services/?$    services.php
+RewriteRule    ^career/?$    career.php
