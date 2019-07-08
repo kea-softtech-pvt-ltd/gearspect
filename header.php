@@ -109,9 +109,9 @@
 											<li><a href="product?<?php echo base64_encode(6);?>">Gear Deburring Machines</a></li>
                                         </ul>
                                     </li>
-									<li class="dropdown"><a href="product">GearSpect India</a>
+									<li class="dropdown"><a href="productind">GearSpect India</a>
                                         <ul>
-                                            <li><a href="#">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li>
+                                            <li><a href="productind?<?php echo base64_encode(1);?>">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li>
                                             <li><a href="#">Gear Testers for inspection of cylindrical gears by double flank rolling method</a></li>
 											<li><a href="#">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
 											<li><a href="#">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
