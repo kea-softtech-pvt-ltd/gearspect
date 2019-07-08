@@ -4,7 +4,7 @@ if(!isset($_SESSION['lang'])){ $_SESSION['lang'] = "en"; }
 include_once('lang/'.$_SESSION['lang'].'.php'); 
 ?>
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title><?php echo $pageTitle;?></title>
@@ -51,9 +51,9 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                                     <select id="polyglot-language-options">
                                         <option id="en" value="en" <?php if($_SESSION['lang']=='en') echo "selected"; ?>>English</option>
                                         <option id="fr" value="fr" <?php if($_SESSION['lang']=='fr') echo "selected"; ?>>French</option>
-                                        <option id="de" value="de" <?php if($_SESSION['lang']=='en') echo "selected"; ?>>German</option>
-                                        <option id="it" value="it" <?php if($_SESSION['lang']=='en') echo "selected"; ?>>Italian</option>
-                                        <option id="es" value="es" <?php if($_SESSION['lang']=='en') echo "selected"; ?>>Spanish</option>
+                                        <option id="de" value="de" <?php if($_SESSION['lang']=='de') echo "selected"; ?>>German</option>
+                                        <option id="it" value="it" <?php if($_SESSION['lang']=='it') echo "selected"; ?>>Italian</option>
+                                        <option id="es" value="es" <?php if($_SESSION['lang']=='es') echo "selected"; ?>>Spanish</option>
                                     </select>
                                 </form>
                             </div>
@@ -91,7 +91,7 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                             <img src="images/resources/logo.png" alt="Awesome Logo" style="max-width:97%;">
                         </a>
                     </div>   
-                    <div class="headers2-header-right float-right">
+                    <div class="headers2-header-right float-left">
                         <nav class="main-menu style2 clearfix">
                             <div class="navbar-header clearfix">   	
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -131,9 +131,9 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                             </div>
                         </nav>  
                     </div>
-                    <!--div class="headers2 quote-button-box float-right">
+                    <div class="headers2 quote-button-box float-right">
                         <a class="btn-one" href="contact">Enquiry<span class="icon-thin-right-arrow"></span></a>
-                    </div-->  
+                    </div>  
                 </div>
             </div>
         </div>
