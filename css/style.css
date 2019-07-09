@@ -9946,15 +9946,7 @@ select:focus {
 .custom_home .owl-theme .owl-nav [class*="owl-"]:hover {
     background: #fff;
 }
-.custom_home .owl-carousel .owl-stage-outer .owl-item.active .single-branches-box {
-    transform: translateY(0px);
-    -webkit-box-shadow: 0px 0px 0px 0px #f0eef9;
-    box-shadow: 0px 0px 0px 0px #f0eef9;
-    border: 1px solid transparent;
-}
-.custom_home .single-branches-box {
-	padding: 0px;border:none;
-}
+
 .white {
 	color: #fff !important;
 }
@@ -10110,4 +10102,17 @@ select:focus {
 .related-product .img-holder:hover {
     opacity: 1;
     transition: opacity 400ms ease;
+}
+.custom_home .branches-carousel .single-branches-box {
+    text-align: center;
+    border: 1px solid #dedede;
+    border-radius: 0;
+    padding: 6px;
+    box-shadow: 0px 1px 2px #eee;
+}
+.custom_home .branches-carousel .single-branches-box img {
+    height: 50px;
+    width: auto;
+    text-align: center;
+    display: inline-block;
 }
