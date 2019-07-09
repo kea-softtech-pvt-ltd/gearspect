@@ -454,7 +454,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="field-input">
-                                    <textarea type="text" name="address" placeholder="Address*" style="border: 1px solid #cccccc;" required></textarea>
+                                    <textarea name="address" placeholder="Address*" style="border: 1px solid #cccccc;" required></textarea>
                                 </div>
                             </div>
 							<div class="col-md-12">
@@ -576,14 +576,14 @@
                                     <p>Head of Sales</p>
                                 </div>
                             </li>
-                            <li>
+                            <!-- <li>
                                 <div class="title">
                                     <h5></h5>
                                 </div>
                                 <div class="text">
                                     <p></p>
                                 </div>
-                            </li>
+                            </li> -->
                             <li>
                                 <div class="title">
                                     <h5>Email:</h5>

@@ -26,8 +26,8 @@ include_once('header.php');
 
 <!--Start Project single area-->
 <section class="project-single-area" id="product-single-area" style="padding: 50px 0 56px">
-    <div class="container">	
-		<div class="related-product" id="related-product">
+    <div class="container">
+		<div class="related-product">
 			<div class="title">
 				<h3>GearSpect Europe</h3>
 			</div>
@@ -39,9 +39,9 @@ include_once('header.php');
 						<div class="container">
 							<div id="accordion" class="">
 								<div class="card mb-0">
-									<div class="card-header collapsed accordion" id="accordion_1" data-toggle="collapse" href="#collapse_1">
+									<a class="card-header collapsed accordion" id="accordion_1" data-toggle="collapse" href="#collapse_1">
 										<span>Gear Grinding Machines</span>
-									</div>
+									</a>
 									<div id="collapse_1" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_1">
 											<li onclick="openTab(1);">SBO 340/400 CNC</li>
@@ -49,9 +49,9 @@ include_once('header.php');
 											<li onclick="openTab(3);">SBP 800/1250/2000 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" id="accordion_2" data-toggle="collapse" href="#collapse_2">
+									<a class="card-header collapsed accordion" id="accordion_2" data-toggle="collapse" href="#collapse_2">
 										<span>Gear Hobbing Machines</span>
-									</div>
+									</a>
 									<div id="collapse_2" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_2">
 											<li onclick="openTab(4);">SF 90 CNC</li>
@@ -60,35 +60,35 @@ include_once('header.php');
 											<li onclick="openTab(7);">SF 800/1000 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" id="accordion_3" data-toggle="collapse" href="#collapse_3">
+									<a class="card-header collapsed accordion" id="accordion_3" data-toggle="collapse" href="#collapse_3">
 										<span>Gear Shaping Machines</span>
-									</div>
+									</a>
 									<div id="collapse_3" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_3">
 											<li onclick="openTab(8);">OHA 16/32 CNC</li>
 											<li onclick="openTab(9);">SO 800 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" id="accordion_4" data-toggle="collapse" href="#collapse_4">
+									<a class="card-header collapsed accordion" id="accordion_4" data-toggle="collapse" href="#collapse_4">
 										<span>Bevel Gear Grinding Machines</span>
-									</div>
+									</a>
 									<div id="collapse_4" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_4">
 											<li onclick="openTab(10);">SBK 350/600/1000 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" id="accordion_5" data-toggle="collapse" href="#collapse_5">
+									<a class="card-header collapsed accordion" id="accordion_5" data-toggle="collapse" href="#collapse_5">
 										<span>Bevel Gear Hobbing Machines</span>
-									</div>
+									</a>
 									<div id="collapse_5" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_5">
 											<li onclick="openTab(11);">SFK 200 CNC</li>
 											<li onclick="openTab(12);">SFK 350/600/1000 CNC</li>
 										</ul>
 									</div>
-									<div class="card-header collapsed accordion" id="accordion_6" data-toggle="collapse" href="#collapse_6">
+									<a class="card-header collapsed accordion" id="accordion_6" data-toggle="collapse" href="#collapse_6">
 										<span>Gear Deburring Machines</span>
-									</div>
+									</a>
 									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_6">
 											<li onclick="openTab(13);">GT 600</li>
@@ -115,7 +115,7 @@ include_once('header.php');
 						</div>
 					</div>
 					<div class="col-xl-5 col-lg-12 f-r">
-						<div class="project-info" id="project-info">
+						<div class="project-info">
 							<div class="title">
 								<h3>SBO 340/400 CNC</h3>
 								<p>Highly productive gear generating grinder, newly designed with 7 or 8 control axes, dynamic balancing of grinding wheel and modern cooling system</p>
@@ -167,7 +167,7 @@ include_once('header.php');
 						</div>
 					</div>
 					<div class="col-xl-5 col-lg-12 f-r">
-						<div class="project-info" id="project-info">
+						<div class="project-info">
 							<div class="title">
 								<h3>SBP 400 CNC</h3>
 								<p>Form Gear Grinding machine , 6 axes CNC controlled form horizontal gear grinder with high mechanical rigidity. High operating accuracy is ensured by temperature stabilization of machine's main parts.</p>
@@ -215,7 +215,7 @@ include_once('header.php');
 						</div>
 					</div>
 					<div class="col-xl-5 col-lg-12 f-r">
-						<div class="project-info" id="project-info">
+						<div class="project-info">
 							<div class="title">
 								<h3>SBP 800/1250/2000 CNC</h3>
 								<p>Form Gear Grinding machine, 6 axes CNC controlled profile vertical gear grinder with high mechanical rigidity. High operating accuracy is ensured by temperature stabilization of machine's main parts.</p>
@@ -225,7 +225,7 @@ include_once('header.php');
 					<div class="col-xl-12 col-lg-12">
 						<table class="table table-striped borderless">
 							<thead>
-								<th></th>
+								<th> </th>
 								<th>SBP 800 CNC</th>
 								<th>SBP 1250 CNC</th>
 								<th>SBP 2000 CNC</th>
@@ -267,7 +267,7 @@ include_once('header.php');
 						</div>
 					</div>
 					<div class="col-xl-5 col-lg-12 f-r">
-						<div class="project-info" id="project-info">
+						<div class="project-info">
 							<div class="title">
 								<h3>SF 90 CNC</h3>
 								<p>Gear Hobbing machine with high rate of productivity. Modern mechanical design with torque motor ensures excellent dynamics machine characteristics for efficient utilisation of tools.</p>
@@ -765,7 +765,7 @@ include_once('header.php');
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="shop-content">
                     <!--Start related product box-->
-                    <div class="related-product" id="related-product">
+                    <div class="related-product">
                         <div class="title">
                             <h3>Related Video
                         </div>

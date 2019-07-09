@@ -88,7 +88,7 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                 <div class="header-style2 clearfix">
                     <div class="header-style2-logo float-left">
                         <a href="./">
-                            <img src="images/resources/logo.png" alt="Awesome Logo" style="max-width:97%;">
+                            <img src="images/resources/logo.png" alt="Gearspect Logo" style="max-width:97%;">
                         </a>
                     </div>   
                     <div class="headers2-header-right float-left">
