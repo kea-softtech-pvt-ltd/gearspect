@@ -4,7 +4,7 @@ $pageDescription = "GearSpect-We are leading gear service provider";
 $pageTitle = "GearSpect - Product";
 $url = ($_SERVER["REQUEST_URI"]);
 $query_str = base64_decode(parse_url(($url), PHP_URL_QUERY));
-$i = (empty($query_str))?1:$query_str;
+$id = (empty($query_str))?1:$query_str;
 include_once('header.php'); 
 ?>   
 
@@ -789,19 +789,12 @@ for (i = 0; i < acc.length; i++) {
 }
 
 function setAccordian(_a) {
-	var _cnt = 1;
-	for(var i=1; i<_a; i++) {		
-		_cnt += $('ul#li_'+i+' li').length;
-	}
-	$('.collapse-info').hide();
-	$('#collapseOpen_'+_cnt).show();
-	$('#collapse_'+_a+' li:first').addClass("active_c");
+	$('#collapse_'+_a+' li:first').click().addClass("active_c");
 }
 
 function openTab(_id) {
 	$('.collapse-info').hide();
 	$('#collapseOpen_'+_id).show();
-	$('#collapse_'+_id+' li:first').addClass("active_c"); 
 }
 
 function getSearchParams(k){
@@ -812,7 +805,7 @@ function getSearchParams(k){
 
 $(document).ready(function(){
 	
-	var _m = '<?php echo $i; ?>';
+	var _m = '<?php echo $id; ?>';
 	
 	setAccordian(_m);
 	$('#accordion_'+_m).click();
