@@ -53,21 +53,22 @@
                 </div>
             </div>
             <!--End Single Global Office-->
+			
             <!--Start Single Global Office-->
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-global-office">
                     <div class="inner">
                         <div class="text">
-                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Gearspect USA Llc.</h3>
-                            <p>production of spare parts, sales and service centre in NY, US.</p>
-                            <p>14 Nosband Avenue, White Plains, New York 10605, USA</p> 
+                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Stockfer - Representações, LDA</h3>
+                            <p>LISBOA. Est. Circunvalação – Qta. Paizinho, Rua B – Armazém F, 2790-194 Carnaxide, Portugal </p>
+                            <p>Telephone : +351 214 269 191, <br/>Fax : +351 214 269 192</p>
                         </div>
                     </div>
                 </div>
             </div>
             <!--End Single Global Office-->
 			
-			 <!--Start Single Global Office-->
+			<!--Start Single Global Office-->
             <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
                 <div class="single-global-office">
                     <div class="inner">
@@ -80,11 +81,78 @@
                 </div>
             </div>
             <!--End Single Global Office-->
+			
+			<!--Start Single Global Office-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-global-office">
+                    <div class="inner">
+                        <div class="text">
+                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Santa Maria da Feira</h3>
+                            <p>Rua 25 de Abril, 145, 4520-115 Espargo, Santa Maria da Feira, Portugal</p>
+                            <p>http://www.stockfer.pt/PT/contactos<br/>Telephone : +351 256 106 265<br/>Fax : +351 256 100 081<br/>Email : info@stockfer.pt / encomendas@stockfer.pt	</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Global Office-->
+	
+			<!--Start Single Global Office-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-global-office">
+                    <div class="inner">
+                        <div class="text">
+                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Lab Gages Co. Ltd</h3>
+                            <p>Room 1603, Unit3, No.100, Jintu road, pudong, shonghai, Postal code : 201206</p>
+                            <p>www.labgages.com<br/>Telephone : 8621-50473900<br/>Fax : 8621-50473901<br/>Email : paul@labgages.com<br/>Phone : 18616300896</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Global Office-->
+			
+			<!--Start Single Global Office-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-global-office">
+                    <div class="inner">
+                        <div class="text">
+                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Lab Gages Co. Ltd</h3>
+                            <p>Room 1603, Unit3, No.100, Jintu road, pudong, shonghai, Postal code : 201206</p>
+                            <p>www.labgages.com<br/>Telephone : 8621-50473900<br/>Fax : 8621-50473901<br/>Email : paul@labgages.com<br/>Phone : 18616300896</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Global Office-->
+			
+			<!--Start Single Global Office-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-global-office">
+                    <div class="inner">
+                        <div class="text">
+                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; TC Trading</h3>
+                            <p>532, 107, Sandan-ro, danwan-gu, Ansan-si Gyeonggi-do 4252851, Rep. of korea</p>
+                            <p>www.tc-trading.com<br/>Telephone : +82-3150-89631<br/>Fax : +82-31525-5200<br/>Email : sales@tc-trading.com<br/>Phone : +82-70-8666-3041(24)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Global Office-->
+			
+			<!--Start Single Global Office-->
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                <div class="single-global-office">
+                    <div class="inner">
+                        <div class="text">
+                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Mahr France</h3>
+                            <p>6 Rue Lavoisier - Z.I, 91430 Igny, France</p>
+                            <p>www.mahr.com<br/>Telephone : +33 0169351919<br/>Email : info@mahr.fr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--End Single Global Office-->
            
         </div>
-        <!--div class="all-global-branch">
-            <h3>View Our All Global Branches <a href="#">Contact Details.</a></h3>
-        </div-->
     </div>
 </section>  
 <!--End Global Offices Area-->  
@@ -519,325 +587,5 @@
     </div>
 </section>         
 <!--End Checkout area-->
-
-<!--Start Branches section-->
-<section class="branches-section" id="branches-section">
-    <div class="container inner-content">
-        <div class="row">
-            <div class="col-xl-12">
-                <div class="sec-title branches_s2_title">
-                    <div class="title"><span class="white">Employees Contact</span></div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <div class="owl-carousel owl-theme branches-carousel-contact">
-                    <!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Main Office</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Ms. Jitka Hergetová</h5>
-                                </div>
-                                <div class="text">
-                                    <p>info@gearspect.com</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="title">
-                                    <h5>Telephone:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>+420 283 890 111</p>
-                                </div>
-                            </li>
-							<li>
-                                <div class="title">
-                                    <h5>Mobile:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>+420 604 208 575</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->                    
-                    <!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Sales Department</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Emil Krivonozka</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Head of Sales</p>
-                                </div>
-                            </li>
-                            <!-- <li>
-                                <div class="title">
-                                    <h5></h5>
-                                </div>
-                                <div class="text">
-                                    <p></p>
-                                </div>
-                            </li> -->
-                            <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>krivonozka@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Sales Department</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Mehmet Can Yikmiş</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Sales & Service Engineer</p>
-                                </div>
-                            </li>
-                           <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>john@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Sales Department</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Petr Kolacny</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Sales & Service Engineer</p>
-                                </div>
-                            </li>
-                           <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>kolacny@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Sales Department</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Josef Chramosta</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Sales & Technical Engineer</p>
-                                </div>
-                            </li>
-                           <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>chramosta@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Sales Department</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Victor She</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Sales & Marketing for Chinese Market</p>
-                                </div>
-                            </li>
-                           <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>she@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Sales Department</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Zdenek Cvrkal</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Marketing & PR Manager</p>
-                                </div>
-                            </li>
-                           <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>cvrkal@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Indian office</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Ms. Sayali Khaire</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Asst. Manager Finance & HR </p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>office-india@gearspect.com</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="title">
-                                    <h5>Mobile:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>0091 9922009135</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Indian office</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Sankha Suvra Bhol</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Manager-Business Development</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>bhol@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Indian office</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Ajay Borawake</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Manager-Operations</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>ajay@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Indian office</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Rakesh Kumar</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Deputy Manager Sales Dept.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>sales-india@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-					<!--Start Single Branches Box-->
-                    <div class="single-branches-box">
-                        <div class="title-box"><h3>Indian office</h3></div>
-                        <ul>
-                            <li>
-                                <div class="title">
-                                    <h5>Mr. Vishal Gaonkar</h5>
-                                </div>
-                                <div class="text">
-                                    <p>Deputy Manager Service Dept.</p>
-                                </div>
-                            </li>
-                            <li>
-                                <div class="title">
-                                    <h5>Email:</h5>
-                                </div>
-                                <div class="text">
-                                    <p>vishal@gearspect.com</p>
-                                </div>
-                            </li>
-                        </ul>   
-                    </div>
-                    <!--End Single Branches Box-->
-                </div> 
-            </div>
-        </div>
-    </div>
-</section>
-<!--End Branches section-->
 
 <?php include_once('footer.php'); ?>

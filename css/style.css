@@ -9980,10 +9980,11 @@ select:focus {
 	padding: 30px 25px 0px 0px;
 	background-color: #f8f7ff;
 }
-#project-info {
+.project-info {
 	padding: 35px 30px 10px;
 	border: none;
-	/*min-height: 401px;
+	border: none;
+ 	/*min-height: 401px;
 	max-height: 401px;*/
 }
 #project-info .borderless td, .borderless th {

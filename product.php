@@ -86,14 +86,6 @@ include_once('header.php');
 											<li onclick="openTab(12);">SFK 350/600/1000 CNC</li>
 										</ul>
 									</div>
-									<a class="card-header collapsed accordion" id="accordion_6" data-toggle="collapse" href="#collapse_6">
-										<span>Gear Deburring Machines</span>
-									</a>
-									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
-										<ul id="li_6">
-											<li onclick="openTab(13);">GT 600</li>
-										</ul>
-									</div>
 								</div>
 							</div>
 						</div>
@@ -151,7 +143,58 @@ include_once('header.php');
 								</tr>
 							<tbody>
 						</table>	
-					</div>	
+					</div>
+					
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<div class="shop-content">
+							<!--Start related product box-->
+							<div class="related-product">
+								<div class="title">
+									<h3>Related Video
+								</div>
+								<div class="row">
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/Bb95y3xDUi0">
+													<img src="http://img.youtube.com/vi/Bb95y3xDUi0/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												<a/>
+											</div>
+										</div>
+									</div>
+									<!--End single product item--> 
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
+													<img src="http://img.youtube.com/vi/VujGxYDqjEc/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<!--End single product item-->
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
+													<img src="http://img.youtube.com/vi/D-3Ylgbzo9I/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												</a>	
+											</div>
+										</div>
+									</div>
+									<!--End single product item-->  
+									 
+								</div>
+							</div>
+							<!--End related product box-->
+						</div> 
+					</div>
 				</div> 
 				<div class="row collapse-info" id="collapseOpen_2">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
@@ -705,52 +748,6 @@ include_once('header.php');
 						</table>	
 					</div>	
 				</div>
-				<div class="row collapse-info" id="collapseOpen_13">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
-						<div class="project-carousel-box">
-							<div class="project-single-carousel owl-carousel owl-theme">
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
-							</div>
-						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
-						<div class="project-info" id="project-info">
-							<div class="title">
-								<h3>GT 600</h3>
-								<p>The machine serves for deburring of spur gears both external and internal also incl. chain wheels in single and mass production.</p>
-							</div>							
-						</div>
-					</div>  
-					<div class="col-xl-12 col-lg-12">
-						<table class="table table-striped borderless">
-							<thead>
-							<tr>
-								<th></th>
-								<th>GT 600</th>
-							</tr>
-							</thead>
-							<tbody>
-								<tr>
-									<td>Max. gear dia.</td>
-									<td>450  mm</td>
-								</tr>
-								<tr>
-									<td>Deburring range</td>
-									<td>0.2 - 2 mm</td>
-								</tr>
-								<tr>
-									<td>Grinding wheel dia.</td>
-									<td>50 - 125 mm</td>
-								</tr>
-							<tbody>
-						</table>	
-					</div>	
-				</div>
  				
             </div>   
         </div>
@@ -758,65 +755,7 @@ include_once('header.php');
 </section>
 <!--End Project single area-->
 
-<!--Start shop area-->
-<section id="shop-area" class="single-shop-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <div class="shop-content">
-                    <!--Start related product box-->
-                    <div class="related-product">
-                        <div class="title">
-                            <h3>Related Video
-                        </div>
-                        <div class="row">
-                            <!--Start single product item-->
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                                <div class="text-center">
-                                    <div class="img-holder">
-										<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/Bb95y3xDUi0">
-											<img src="http://img.youtube.com/vi/Bb95y3xDUi0/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-											<span><i class="fa fa-play fa-3x"></i></span>
-										<a/>
-									</div>
-                                </div>
-                            </div>
-                            <!--End single product item--> 
-                            <!--Start single product item-->
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                                <div class="text-center">
-                                    <div class="img-holder">
-										<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
-											<img src="http://img.youtube.com/vi/VujGxYDqjEc/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-											<span><i class="fa fa-play fa-3x"></i></span>
-										</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End single product item-->
-                            <!--Start single product item-->
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                                <div class="text-center">
-                                    <div class="img-holder">
-										<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
-											<img src="http://img.youtube.com/vi/D-3Ylgbzo9I/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-											<span><i class="fa fa-play fa-3x"></i></span>
-										</a>	
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End single product item-->  
-                             
-                        </div>
-                    </div>
-                    <!--End related product box-->
-                </div> 
-            </div>
-        
-        </div>
-    </div>
-</section>
-<!--End shop area-->
+
 
 <?php include_once('footer.php'); ?>
 <script>

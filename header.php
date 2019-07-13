@@ -30,7 +30,14 @@ include_once('lang/'.$_SESSION['lang'].'.php');
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <script src="js/html5shiv.js"></script>
     <![endif]-->
-    
+	
+	<style>
+	.top-left-style2 .top-contact-info ul li {
+		padding-left: 0px;
+		margin-left: 0px;
+	}
+    </style>
+	
 </head>
 
 <body>
@@ -44,8 +51,8 @@ include_once('lang/'.$_SESSION['lang'].'.php');
         <div class="row">
             <div class="col-xl-12 col-lg-12 col-md-12">
                 <div class="top-style2 clearfix">
-                    <div class="top-left-style2 float-left clearfix">
-                        <div class="language-switcher">
+                    <div class="top-left-style2 float-left clearfix" id="lang-mail" style="padding-left:0px;">
+                        <!--div class="language-switcher">
                             <div id="polyglotLanguageSwitcher">
                                 <form action="">
                                     <select id="polyglot-language-options">
@@ -57,11 +64,11 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                                     </select>
                                 </form>
                             </div>
-                        </div>
+                        </div-->
                         <div class="top-contact-info">
                             <ul>
-                                <li><span class="icon-phone"></span> <?php echo $lang['header']['talk_to_us']; ?>: <b>+91 9005-765-321</b></li>
-                                <li><span class="icon-email"></span> sales@gearspect.com</li>
+                                <!--li><span class="icon-phone"></span> <?php echo $lang['header']['talk_to_us']; ?>: <b>+91 9005-765-321</b></li-->
+                                <li><span class="icon-email"></span> sales.info@gearspect.com</li>
                             </ul>    
                         </div> 
                     </div>
@@ -69,8 +76,8 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                         <ul class="sociallinks-style-one fix">
                             <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
                             <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            <!--li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li-->
+                            <li><a href="https://in.linkedin.com/company/gearspect-group" target="bank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         </ul>
                     </div>
                 </div>    
@@ -110,7 +117,6 @@ include_once('lang/'.$_SESSION['lang'].'.php');
 											<li><a href="product?<?php echo base64_encode(3);?>">Gear Shaping Machines</a></li>
 											<li><a href="product?<?php echo base64_encode(4);?>">Bevel Gear Grinding Machines</a></li>
 											<li><a href="product?<?php echo base64_encode(5);?>">Bevel Gear Hobbing Machines</a></li>
-											<li><a href="product?<?php echo base64_encode(6);?>">Gear Deburring Machines</a></li>
                                         </ul>
                                     </li>
 									<li class="dropdown"><a href="productind"><?php echo $lang['menu']['india']; ?></a>
@@ -118,12 +124,16 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                                             <li><a href="productind?<?php echo base64_encode(1);?>">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li>
                                             <li><a href="productind?<?php echo base64_encode(2);?>">Gear Testers for inspection of cylindrical gears by double flank rolling method</a></li>
 											<li><a href="productind?<?php echo base64_encode(3);?>">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
-											<li><a href="productind?<?php echo base64_encode(4);?>">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
+											<li><a href="productind?<?php echo base64_encode(4);?>">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>											
+											<li><a href="productind?<?php echo base64_encode(5);?>">Gear Deburring Machines</a></li>
                                         </ul>
                                     </li>
 									<li class="dropdown"><a href="services"><?php echo $lang['menu']['services']; ?></a>
                                         <ul>
-                                            <li><a href="ser-automotive">Gear testing</a></li>
+                                            <li><a href="#">Installation & Commissioning</a></li>
+                                            <li><a href="#">Gear Testing & Instrument</a></li>
+                                            <li><a href="#">Inhouse Gear Testing Laboratory</a></li>
+                                            <li><a href="#">Reconditioning Gear Measuring Devices</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="contact"><?php echo $lang['menu']['contact']; ?></a></li>

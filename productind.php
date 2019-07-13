@@ -79,6 +79,14 @@ include_once('header.php');
 											<li onclick="openTab(12);">ZLK 600 PC</li>
 											<li onclick="openTab(13);">IMO 1000 K CNC</li>
 										</ul>
+									</div>									
+									<a class="card-header collapsed accordion" id="accordion_5" data-toggle="collapse" href="#collapse_5">
+										<span>Gear Deburring Machines</span>
+									</a>
+									<div id="collapse_5" class="card-body collapse" data-parent="#accordion" >
+										<ul id="li_6">
+											<li onclick="openTab(14);">GT 600</li>
+										</ul>
 									</div>
 								</div>
 							</div>
@@ -708,7 +716,52 @@ include_once('header.php');
 						</table>	
 					</div>	
 				</div>
-
+				<div class="row collapse-info" id="collapseOpen_14">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>GT 600</h3>
+								<p>The machine serves for deburring of spur gears both external and internal also incl. chain wheels in single and mass production.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+							<tr>
+								<th></th>
+								<th>GT 600</th>
+							</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Max. gear dia.</td>
+									<td>450  mm</td>
+								</tr>
+								<tr>
+									<td>Deburring range</td>
+									<td>0.2 - 2 mm</td>
+								</tr>
+								<tr>
+									<td>Grinding wheel dia.</td>
+									<td>50 - 125 mm</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
 
 				
             </div>   
