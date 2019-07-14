@@ -124,10 +124,10 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                                             <!--li><a href="productind?<?php echo base64_encode(1);?>">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li-->
                                             <li><a href="productind?<?php echo base64_encode(2);?>">Double flank for cylindrical Gear</a></li>
 											<li><a href="productind?<?php echo base64_encode(3);?>">Single flank for cylindrical Gear</a></li>
-											<li><a href="productind?<?php echo base64_encode(3);?>">Double flank for worm Gear</a></li>
-											<li><a href="productind?<?php echo base64_encode(3);?>">Single flank for worm Gear</a></li>
-											<li><a href="productind?<?php echo base64_encode(4);?>">Gear Testers for Bevel Gears</a></li>											
-											<li><a href="productind?<?php echo base64_encode(5);?>">Gear Deburring Machines</a></li>
+											<li><a href="productind?<?php echo base64_encode(4);?>">Double flank for worm Gear</a></li>
+											<li><a href="productind?<?php echo base64_encode(5);?>">Single flank for worm Gear</a></li>
+											<li><a href="productind?<?php echo base64_encode(6);?>">Gear Testers for Bevel Gears</a></li>											
+											<li><a href="productind?<?php echo base64_encode(7);?>">Gear Deburring Machines</a></li>
                                         </ul>
                                     </li>
 									<li class="dropdown"><a href="services"><?php echo $lang['menu']['services']; ?></a>

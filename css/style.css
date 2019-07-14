@@ -10118,3 +10118,6 @@ select:focus {
     text-align: center;
     display: inline-block;
 }
+.shop-content {
+	margin-bottom: 20px;
+}

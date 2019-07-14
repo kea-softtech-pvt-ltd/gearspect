@@ -43,7 +43,7 @@ include_once('header.php');
 										<span>Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</span>
 									</div>
 									<div id="collapse_1" class="card-body collapse" data-parent="#accordion" >
-										<ul id="li_1">
+										<ul>
 											<li onclick="openTab(1);">DO 3 PC</li>
 											<li onclick="openTab(2);">DO 300/500 CNC</li>
 											<li onclick="openTab(3);">DO 800 CNC</li>
@@ -53,7 +53,7 @@ include_once('header.php');
 										<span>Double flank for cylindrical Gear</span>
 									</div>
 									<div id="collapse_2" class="card-body collapse" data-parent="#accordion" >
-										<ul id="li_2">
+										<ul>
 											<li onclick="openTab(4);">DO 0 PC</li>
 											<li onclick="openTab(5);">DO 1 PC</li>
 											<li onclick="openTab(6);">DO 1 D PC</li>
@@ -64,39 +64,39 @@ include_once('header.php');
 										<span>Single flank for cylindrical Gear</span>
 									</div>
 									<div id="collapse_3" class="card-body collapse" data-parent="#accordion" >
-										<ul id="li_3">
+										<ul>
 											<li onclick="openTab(8);">DO 2 PC</li>
 											<!--li onclick="openTab(9);">DO 2 S PC</li>
 											<li onclick="openTab(10);">DO 2 K PC</li-->
 										</ul>
 									</div>
 									
-									<div class="card-header collapsed accordion" id="accordion_6" data-toggle="collapse" href="#collapse_6">
+									<div class="card-header collapsed accordion" id="accordion_4" data-toggle="collapse" href="#collapse_4">
 										<span>Double flank for worm Gear</span>
 									</div>
-									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
-										<ul id="li_3">
+									<div id="collapse_4" class="card-body collapse" data-parent="#accordion" >
+										<ul>
 											<li onclick="openTab(15);">DO 0 W PC</li>
 											<li onclick="openTab(7);">DO 1 W PC</li>
 										</ul>
 									</div>
 									
-									<div class="card-header collapsed accordion" id="accordion_7" data-toggle="collapse" href="#collapse_7">
+									<div class="card-header collapsed accordion" id="accordion_5" data-toggle="collapse" href="#collapse_5">
 										<span>Single flank for worm Gear</span>
 									</div>
-									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
-										<ul id="li_3">
+									<div id="collapse_5" class="card-body collapse" data-parent="#accordion" >
+										<ul>
 											<li onclick="openTab(16);">DO 2S PC</li>
 											<li onclick="openTab(17);">IMO 1000 S PC</li>
 										</ul>
 									</div>
 									
 									
-									<div class="card-header collapsed accordion" id="accordion_4" data-toggle="collapse" href="#collapse_4">
+									<div class="card-header collapsed accordion" id="accordion_6" data-toggle="collapse" href="#collapse_6">
 										<span>Gear Testers for Bevel Gears</span>
 									</div>
-									<div id="collapse_4" class="card-body collapse" data-parent="#accordion" >
-										<ul id="li_4">
+									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
+										<ul>
 											<li onclick="openTab(18);">DO 125 K PC</li>
 											<li onclick="openTab(11);">DO 140 K PC</li>
 											<li onclick="openTab(19);">DO 2 K PC</li>
@@ -106,11 +106,11 @@ include_once('header.php');
 											<li onclick="openTab(13);">IMO 1000 K CNC</li-->
 										</ul>
 									</div>									
-									<a class="card-header collapsed accordion" id="accordion_5" data-toggle="collapse" href="#collapse_5">
+									<a class="card-header collapsed accordion" id="accordion_7" data-toggle="collapse" href="#collapse_7">
 										<span>Gear Deburring Machines</span>
 									</a>
-									<div id="collapse_5" class="card-body collapse" data-parent="#accordion" >
-										<ul id="li_6">
+									<div id="collapse_7" class="card-body collapse" data-parent="#accordion" >
+										<ul>
 											<li onclick="openTab(14);">GT 600</li>
 										</ul>
 									</div>
@@ -175,7 +175,8 @@ include_once('header.php');
 								</tr>
 							<tbody>
 						</table>	
-					</div>	
+					</div>
+        	
 				</div> 
 				<div class="row collapse-info" id="collapseOpen_2">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
@@ -232,6 +233,58 @@ include_once('header.php');
 								
 							<tbody>
 						</table>	
+					</div>
+					
+					
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<div class="shop-content">
+							<!--Start related product box-->
+							<div class="related-product" id="related-product">
+								<div class="title">
+									<h3>Related Video
+								</div>
+								<div class="row">
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/Bb95y3xDUi0">
+													<img src="http://img.youtube.com/vi/Bb95y3xDUi0/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												<a/>
+											</div>
+										</div>
+									</div>
+									<!--End single product item--> 
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
+													<img src="http://img.youtube.com/vi/VujGxYDqjEc/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<!--End single product item-->
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
+													<img src="http://img.youtube.com/vi/D-3Ylgbzo9I/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												</a>	
+											</div>
+										</div>
+									</div>
+									<!--End single product item-->  
+									 
+								</div>
+							</div>
+							<!--End related product box-->
+						</div> 
 					</div>	
 				</div> 
 				<div class="row collapse-info" id="collapseOpen_3">
@@ -332,8 +385,108 @@ include_once('header.php');
 							<tbody>
 						</table>	
 					</div>	
+					
+					
+					<div class="col-xl-12 col-lg-12">
+						<div class="shop-content">
+							<!--Start related product box-->
+							<div class="related-product" id="related-product">
+								<div class="title">
+									<h3>Related Video
+								</div>
+								<div class="row">
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/Bb95y3xDUi0">
+													<img src="http://img.youtube.com/vi/Bb95y3xDUi0/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												<a/>
+											</div>
+										</div>
+									</div>
+									<!--End single product item--> 
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
+													<img src="http://img.youtube.com/vi/VujGxYDqjEc/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												</a>
+											</div>
+										</div>
+									</div>
+									<!--End single product item-->
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
+													<img src="http://img.youtube.com/vi/D-3Ylgbzo9I/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												</a>	
+											</div>
+										</div>
+									</div>
+									<!--End single product item-->  
+									 
+								</div>
+							</div>
+							<!--End related product box-->
+						</div> 
+					</div>
 				</div>
 				<div class="row collapse-info" id="collapseOpen_5">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 1 PC</h3>
+								<p>Test deviations of double flank and Mdk of shafts and spur gears. Scanning and evaluation by PC.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 1 PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Max. dia. of measured wheel	</td>
+									<td>10- 320 mm</td>
+								</tr>
+								<tr>
+									<td>Clamping between centres</td>
+									<td>180/280 mm</td>
+								</tr>
+								<tr>
+									<td>Min/max. module	</td>
+									<td>0.5 – 8 mm</td>
+								</tr><tr>
+									<td>Min/Max. distance between centres	</td>
+									<td>5 -250 mm</td>
+								</tr>
+								
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				<div class="row collapse-info" id="collapseOpen_6">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
@@ -434,10 +587,10 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/DO 2 PC/_MG_0381.JPG" alt="Awesome Image">    
 								</div>
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/DO 2 PC/_MG_0382.JPG" alt="Awesome Image">    
 								</div>    
 							</div>
 						</div>
@@ -586,7 +739,101 @@ include_once('header.php');
 						</table>	
 					</div>	
 				</div>
-				 <div class="row collapse-info" id="collapseOpen_11">
+				 <div class="row collapse-info" id="collapseOpen_18">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/product/DO 125K/Do125k.JPG" alt="Awesome Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 125 K PC</h3>
+								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 125 K PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of measured pinion 	 	</td>
+									<td>10 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of measured wheel 	 		</td>
+									<td>140 mm</td>
+								</tr>
+								<tr>
+									<td>Max. assembly distance 	</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Angle of conical gearing axes 			</td>
+									<td>70-120°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				 <div class="row collapse-info" id="collapseOpen_15">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/product/DO-0 PC with Worm/IMG-20171103-WA0009.JPG" alt="Awesome Image">
+								</div>  
+                                     <div class="single-item">
+									 <img src="images/product/DO-0 PC with Worm/IMG-20171103-WA0007.JPG" alt="Awesome Image">
+									 
+								</div> 								
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 0 W PC</h3>
+								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 125 K PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of measured pinion 	 	</td>
+									<td>10 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of measured wheel 	 		</td>
+									<td>140 mm</td>
+								</tr>
+								<tr>
+									<td>Max. assembly distance 	</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Angle of conical gearing axes 			</td>
+									<td>70-120°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				<div class="row collapse-info" id="collapseOpen_11">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
@@ -796,65 +1043,7 @@ include_once('header.php');
 </section>
 <!--End Project single area-->
 
-<!--Start shop area-->
-<section id="shop-area" class="single-shop-area">
-    <div class="container">
-        <div class="row">
-            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                <div class="shop-content">
-                    <!--Start related product box-->
-                    <div class="related-product" id="related-product">
-                        <div class="title">
-                            <h3>Related Video
-                        </div>
-                        <div class="row">
-                            <!--Start single product item-->
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                                <div class="text-center">
-                                    <div class="img-holder">
-										<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/Bb95y3xDUi0">
-											<img src="http://img.youtube.com/vi/Bb95y3xDUi0/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-											<span><i class="fa fa-play fa-3x"></i></span>
-										<a/>
-									</div>
-                                </div>
-                            </div>
-                            <!--End single product item--> 
-                            <!--Start single product item-->
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                                <div class="text-center">
-                                    <div class="img-holder">
-										<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
-											<img src="http://img.youtube.com/vi/VujGxYDqjEc/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-											<span><i class="fa fa-play fa-3x"></i></span>
-										</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End single product item-->
-                            <!--Start single product item-->
-                            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-                                <div class="text-center">
-                                    <div class="img-holder">
-										<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
-											<img src="http://img.youtube.com/vi/D-3Ylgbzo9I/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-											<span><i class="fa fa-play fa-3x"></i></span>
-										</a>	
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End single product item-->  
-                             
-                        </div>
-                    </div>
-                    <!--End related product box-->
-                </div> 
-            </div>
-        
-        </div>
-    </div>
-</section>
-<!--End shop area-->
+
 
 <?php include_once('footer.php'); ?>
 <script>
@@ -884,7 +1073,7 @@ function getSearchParams(k){
 
 $(document).ready(function(){
 	
-	var _m = 2;//'<?php echo $id; ?>';
+	var _m = '<?php echo $id; ?>';
 	
 	setAccordian(_m);
 	$('#accordion_'+_m).click();
