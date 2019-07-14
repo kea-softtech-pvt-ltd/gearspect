@@ -39,7 +39,7 @@ include_once('header.php');
 						<div class="container">
 							<div id="accordion" class="">
 								<div class="card mb-0">
-									<div class="card-header collapsed accordion" id="accordion_1" data-toggle="collapse" href="#collapse_1">
+									<!--div class="card-header collapsed accordion" id="accordion_1" data-toggle="collapse" href="#collapse_1">
 										<span>Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</span>
 									</div>
 									<div id="collapse_1" class="card-body collapse" data-parent="#accordion" >
@@ -48,36 +48,62 @@ include_once('header.php');
 											<li onclick="openTab(2);">DO 300/500 CNC</li>
 											<li onclick="openTab(3);">DO 800 CNC</li>
 										</ul>
-									</div>
+									</div-->
 									<div class="card-header collapsed accordion" id="accordion_2" data-toggle="collapse" href="#collapse_2">
-										<span>Gear Testers for inspection of cylindrical gears by double flank rolling method</span>
+										<span>Double flank for cylindrical Gear</span>
 									</div>
 									<div id="collapse_2" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_2">
 											<li onclick="openTab(4);">DO 0 PC</li>
 											<li onclick="openTab(5);">DO 1 PC</li>
-											<!--li onclick="openTab(6);">DO 1 D PC</li-->
-											<li onclick="openTab(7);">DO 1 W PC</li>
+											<li onclick="openTab(6);">DO 1 D PC</li>
+											<!--li onclick="openTab(7);">DO 1 W PC</li-->
 										</ul>
 									</div>
 									<div class="card-header collapsed accordion" id="accordion_3" data-toggle="collapse" href="#collapse_3">
-										<span>Gear Testers for inspection of cylindrical gears by single flank rolling method</span>
+										<span>Single flank for cylindrical Gear</span>
 									</div>
 									<div id="collapse_3" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_3">
 											<li onclick="openTab(8);">DO 2 PC</li>
-											<li onclick="openTab(9);">DO 2 S PC</li>
-											<li onclick="openTab(10);">DO 2 K PC</li>
+											<!--li onclick="openTab(9);">DO 2 S PC</li>
+											<li onclick="openTab(10);">DO 2 K PC</li-->
 										</ul>
 									</div>
+									
+									<div class="card-header collapsed accordion" id="accordion_6" data-toggle="collapse" href="#collapse_6">
+										<span>Double flank for worm Gear</span>
+									</div>
+									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
+										<ul id="li_3">
+											<li onclick="openTab(15);">DO o W PC</li>
+											<li onclick="openTab(7);">DO 1 W PC</li>
+										</ul>
+									</div>
+									
+									<div class="card-header collapsed accordion" id="accordion_7" data-toggle="collapse" href="#collapse_7">
+										<span>Single flank for worm Gear</span>
+									</div>
+									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
+										<ul id="li_3">
+											<li onclick="openTab(16);">DO 2S PC</li>
+											<li onclick="openTab(17);">IMO 1000 S PC</li>
+										</ul>
+									</div>
+									
+									
 									<div class="card-header collapsed accordion" id="accordion_4" data-toggle="collapse" href="#collapse_4">
 										<span>Gear Testers for Bevel Gears</span>
 									</div>
 									<div id="collapse_4" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_4">
+											<li onclick="openTab(18);">DO 125 K PC</li>
 											<li onclick="openTab(11);">DO 140 K PC</li>
-											<li onclick="openTab(12);">ZLK 600 PC</li>
-											<li onclick="openTab(13);">IMO 1000 K CNC</li>
+											<li onclick="openTab(19);">DO 2 K PC</li>
+											<li onclick="openTab(20);">ZLK 300/600 PC</li>
+											<li onclick="openTab(21);">IMO 1000 K PC</li>
+											<!--li onclick="openTab(12);">ZLK 600 PC</li>
+											<li onclick="openTab(13);">IMO 1000 K CNC</li-->
 										</ul>
 									</div>									
 									<a class="card-header collapsed accordion" id="accordion_5" data-toggle="collapse" href="#collapse_5">
@@ -858,7 +884,7 @@ function getSearchParams(k){
 
 $(document).ready(function(){
 	
-	var _m = '<?php echo $id; ?>';
+	var _m = 2;//'<?php echo $id; ?>';
 	
 	setAccordian(_m);
 	$('#accordion_'+_m).click();

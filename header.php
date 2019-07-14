@@ -121,10 +121,12 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                                     </li>
 									<li class="dropdown"><a href="productind"><?php echo $lang['menu']['india']; ?></a>
                                         <ul>
-                                            <li><a href="productind?<?php echo base64_encode(1);?>">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li>
-                                            <li><a href="productind?<?php echo base64_encode(2);?>">Gear Testers for inspection of cylindrical gears by double flank rolling method</a></li>
-											<li><a href="productind?<?php echo base64_encode(3);?>">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>
-											<li><a href="productind?<?php echo base64_encode(4);?>">Gear Testers for inspection of cylindrical gears by single flank rolling method</a></li>											
+                                            <!--li><a href="productind?<?php echo base64_encode(1);?>">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li-->
+                                            <li><a href="productind?<?php echo base64_encode(2);?>">Double flank for cylindrical Gear</a></li>
+											<li><a href="productind?<?php echo base64_encode(3);?>">Single flank for cylindrical Gear</a></li>
+											<li><a href="productind?<?php echo base64_encode(3);?>">Double flank for worm Gear</a></li>
+											<li><a href="productind?<?php echo base64_encode(3);?>">Single flank for worm Gear</a></li>
+											<li><a href="productind?<?php echo base64_encode(4);?>">Gear Testers for Bevel Gears</a></li>											
 											<li><a href="productind?<?php echo base64_encode(5);?>">Gear Deburring Machines</a></li>
                                         </ul>
                                     </li>
