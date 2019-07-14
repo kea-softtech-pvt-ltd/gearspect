@@ -109,7 +109,7 @@
 				<div class="contact-form">
 					<div class="related-product">
 						<div class="title">
-							<h3>GearSpect Career Path</h3>
+							<h3>GearSpect Career</h3>
 						</div>
 					</div>                
 					<?php if(!empty($message)) { ?>
@@ -145,7 +145,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="input-box"> 
-                                    <input type="text" name="phonename" value="" placeholder="Phone">
+                                    <input type="tel" required name="phonename" value="" placeholder="Phone">
                                     <div class="icon">
                                         <i class="fa fa-phone" aria-hidden="true"></i>
                                     </div>
@@ -157,7 +157,7 @@
                                 <div class="input-box">
                                     <input type="text" name="form_position" value="" placeholder="Position">
                                     <div class="icon">
-                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <i class="fa fa-user" aria-hidden="true"></i>
                                     </div>
                                 </div>
                             </div>

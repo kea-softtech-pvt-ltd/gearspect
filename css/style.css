@@ -9611,6 +9611,7 @@ select:focus {
 }
 .contact-form form input[type="text"],
 .contact-form form input[type="email"],
+.contact-form form input[type="tel"],
 .contact-form form textarea{
     position: relative;
     display: block;   
