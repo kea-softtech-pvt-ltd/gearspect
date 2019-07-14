@@ -76,7 +76,7 @@ include_once('header.php');
 									</div>
 									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
 										<ul id="li_3">
-											<li onclick="openTab(15);">DO o W PC</li>
+											<li onclick="openTab(15);">DO 0 W PC</li>
 											<li onclick="openTab(7);">DO 1 W PC</li>
 										</ul>
 									</div>

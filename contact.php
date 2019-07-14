@@ -345,7 +345,7 @@
                             <div class="col-md-7">
 								<div class="col-md-12">
 									<div class="field-label"><h3>Gear Measuring Instruments</h3></div>
-									<div class="field-input">
+									<!--div class="field-input">
 										<div class="option-block">
 											<div class="checkbox">
 												<label>
@@ -375,15 +375,15 @@
 												</label>
 											</div>
 										</div>
-									</div>
+									</div-->
 								</div>
 								<div class="col-md-12">
 									<div class="field-input">
 										<div class="option-block">
 											<div class="checkbox">
 												<label>
-													<input name="payus[]"  class="check_8" onclick="checkAll(this);" type="checkbox" value="Gear Testers for inspection of cylindrical gears by double flank rolling method" style="margin:0px;"> 
-													<span class="c-title">Gear Testers for inspection of cylindrical gears by double flank rolling method</span>
+													<input name="payus[]"  class="check_8" onclick="checkAll(this);" type="checkbox" value="Double flank for cylindrical Gear" style="margin:0px;"> 
+													<span class="c-title">Double flank for cylindrical Gear</span>
 												</label>
 											</div>
 											
@@ -403,6 +403,66 @@
 											</div>
 											<div class="checkbox">
 												<label>
+													<input name="payus[]" type="checkbox" value="DO 1 D PC">
+													<span>DO 1 D PC</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="field-input">
+										<div class="option-block">
+											<div class="checkbox">
+												<label>
+													<input name="payus[]"  class="check_9" onclick="checkAll(this);" type="checkbox" value="Single flank for cylindrical Gear" style="margin:0px;"> 
+													<span class="c-title">Single flank for cylindrical Gear</span>
+												</label>
+											</div>
+											
+										</div>
+										<div class="option-block sub_check_9">
+											<div class="checkbox">
+												<label>
+													<input name="payus[]" type="checkbox" value="DO 2 PC">
+													<span>DO 2 PC</span>
+												</label>
+											</div>
+											<!--div class="checkbox">
+												<label>
+													<input name="payus[]" type="checkbox" value="DO 2 S PC">
+													<span>DO 2 S PC</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input name="payus[]" type="checkbox" value="DO 2 K PC">
+													<span>DO 2 K PC</span>
+												</label>
+											</div-->
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="field-input">
+										<div class="option-block">
+											<div class="checkbox">
+												<label>
+													<input name="payus[]"  class="check_9" onclick="checkAll(this);" type="checkbox" value="Double flank for worm Gear" style="margin:0px;"> 
+													<span class="c-title">Double flank for worm Gear</span>
+												</label>
+											</div>
+											
+										</div>
+										<div class="option-block sub_check_9">
+											<div class="checkbox">
+												<label>
+													<input name="payus[]" type="checkbox" value="DO 0 W PC">
+													<span>DO 0 W PC</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
 													<input name="payus[]" type="checkbox" value="DO 1 W PC">
 													<span>DO 1 W PC</span>
 												</label>
@@ -415,8 +475,8 @@
 										<div class="option-block">
 											<div class="checkbox">
 												<label>
-													<input name="payus[]"  class="check_9" onclick="checkAll(this);" type="checkbox" value="Gear Testers for inspection of cylindrical gears by single flank rolling method" style="margin:0px;"> 
-													<span class="c-title">Gear Testers for inspection of cylindrical gears by single flank rolling method</span>
+													<input name="payus[]"  class="check_9" onclick="checkAll(this);" type="checkbox" value="Single flank for worm Gear" style="margin:0px;"> 
+													<span class="c-title">Single flank for worm Gear</span>
 												</label>
 											</div>
 											
@@ -424,25 +484,20 @@
 										<div class="option-block sub_check_9">
 											<div class="checkbox">
 												<label>
-													<input name="payus[]" type="checkbox" value="DO 2 PC">
-													<span>DO 2 PC</span>
+													<input name="payus[]" type="checkbox" value="DO 2S PC">
+													<span>DO 2S PC</span>
 												</label>
 											</div>
 											<div class="checkbox">
 												<label>
-													<input name="payus[]" type="checkbox" value="DO 2 S PC">
-													<span>DO 2 S PC</span>
-												</label>
-											</div>
-											<div class="checkbox">
-												<label>
-													<input name="payus[]" type="checkbox" value="DO 2 K PC">
-													<span>DO 2 K PC</span>
+													<input name="payus[]" type="checkbox" value="IMO 1000 S PC">
+													<span>IMO 1000 S PC</span>
 												</label>
 											</div>
 										</div>
 									</div>
 								</div>
+								
 								<div class="col-md-12">
 									<div class="field-input">
 										<div class="option-block">
@@ -457,20 +512,53 @@
 										<div class="option-block sub_check_10">
 											<div class="checkbox">
 												<label>
+													<input name="payus[]" type="checkbox" value="DO 125 K PC">
+													<span>DO 125 K PC</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
 													<input name="payus[]" type="checkbox" value="DO 140 K PC">
 													<span>DO 140 K PC</span>
 												</label>
 											</div>
 											<div class="checkbox">
 												<label>
-													<input name="payus[]" type="checkbox" value="ZLK 600 PC">
-													<span>ZLK 600 PC</span>
+													<input name="payus[]" type="checkbox" value="DO 2 K PC">
+													<span>DO 2 K PC</span>
 												</label>
 											</div>
 											<div class="checkbox">
 												<label>
-													<input name="payus[]" type="checkbox" value="IMO 1000 K CNC">
-													<span>IMO 1000 K CNC</span>
+													<input name="payus[]" type="checkbox" value="ZLK 300/600 PC">
+													<span>ZLK 300/600 PC</span>
+												</label>
+											</div>
+											<div class="checkbox">
+												<label>
+													<input name="payus[]" type="checkbox" value="IMO 1000 K PC">
+													<span>IMO 1000 K PC</span>
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="field-input">
+										<div class="option-block">
+											<div class="checkbox">
+												<label>
+													<input name="payus[]"  class="check_9" onclick="checkAll(this);" type="checkbox" value="Gear Deburring Machines" style="margin:0px;"> 
+													<span class="c-title">Gear Deburring Machines</span>
+												</label>
+											</div>
+											
+										</div>
+										<div class="option-block sub_check_9">
+											<div class="checkbox">
+												<label>
+													<input name="payus[]" type="checkbox" value="GT 600">
+													<span>GT 600</span>
 												</label>
 											</div>
 										</div>
