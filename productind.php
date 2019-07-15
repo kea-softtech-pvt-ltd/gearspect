@@ -7,13 +7,9 @@ $query_str = base64_decode(parse_url(($url), PHP_URL_QUERY));
 $id = (empty($query_str))?1:$query_str;
 include_once('header.php'); 
 ?>   
-<style>
-.single-item {
-    /* background-color: #f2f2f2; */
-}
-</style>
+
 <!--Start breadcrumb area-->     
-<section class="breadcrumb-area" style="background-image: url(images/re sources/breadcrumb-bg.jpg);">
+<section class="breadcrumb-area" style="background-image: url(images/resources/breadcrumb-bg.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
