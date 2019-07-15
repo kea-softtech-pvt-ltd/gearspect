@@ -10044,10 +10044,6 @@ select:focus {
   transition: 0.4s;
 }
 
-#product-single-area .active, .accordion:hover {
-  background-color: #006dcc;
-}
-
 #product-single-area .accordion:after {
   content: '\002B';
   color: #fff;

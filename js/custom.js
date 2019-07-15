@@ -737,7 +737,7 @@ jQuery(document).on('ready', function () {
         latestProjectCarousel ();
         testimonialCarousel();
         testimonialCarousel2();
-        certificationsCarousel();
+        //certificationsCarousel();
         projectSingleCarousel();
         branchesCarousel()
 

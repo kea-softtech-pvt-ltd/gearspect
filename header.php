@@ -121,7 +121,7 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                                     </li>
 									<li class="dropdown"><a href="productind"><?php echo $lang['menu']['india']; ?></a>
                                         <ul>
-                                            <!--li><a href="productind?<?php echo base64_encode(1);?>">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li-->
+                                            <li><a href="productind?<?php echo base64_encode(1);?>">Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</a></li>
                                             <li><a href="productind?<?php echo base64_encode(2);?>">Double flank for cylindrical Gear</a></li>
 											<li><a href="productind?<?php echo base64_encode(3);?>">Single flank for cylindrical Gear</a></li>
 											<li><a href="productind?<?php echo base64_encode(4);?>">Double flank for worm Gear</a></li>
@@ -132,10 +132,10 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                                     </li>
 									<li class="dropdown"><a href="services"><?php echo $lang['menu']['services']; ?></a>
                                         <ul>
-                                            <li><a href="#">Installation & Commissioning</a></li>
-                                            <li><a href="#">Gear Testing & Instrument</a></li>
-                                            <li><a href="#">Inhouse Gear Testing Laboratory</a></li>
-                                            <li><a href="#">Reconditioning Gear Measuring Devices</a></li>
+                                            <li><a href="services?<?php echo base64_encode(1);?>">Installation & Commissioning</a></li>
+                                            <li><a href="services?<?php echo base64_encode(2);?>">Gear Testing & Instrument</a></li>
+                                            <li><a href="services?<?php echo base64_encode(4);?>">In-house Gear Testing Laboratory</a></li>
+                                            <li><a href="services?<?php echo base64_encode(5);?>">Reconditioning Gear Measuring Devices</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="contact"><?php echo $lang['menu']['contact']; ?></a></li>

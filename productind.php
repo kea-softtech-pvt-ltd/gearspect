@@ -7,7 +7,11 @@ $query_str = base64_decode(parse_url(($url), PHP_URL_QUERY));
 $id = (empty($query_str))?1:$query_str;
 include_once('header.php'); 
 ?>   
-
+<style>
+.single-item {
+    /* background-color: #f2f2f2; */
+}
+</style>
 <!--Start breadcrumb area-->     
 <section class="breadcrumb-area" style="background-image: url(images/re sources/breadcrumb-bg.jpg);">
     <div class="container">
@@ -39,16 +43,16 @@ include_once('header.php');
 						<div class="container">
 							<div id="accordion" class="">
 								<div class="card mb-0">
-									<!--div class="card-header collapsed accordion" id="accordion_1" data-toggle="collapse" href="#collapse_1">
+									<div class="card-header collapsed accordion" id="accordion_1" data-toggle="collapse" href="#collapse_1">
 										<span>Gear Testers for geometric deviation of cylindrical gears and gear cutting tools</span>
 									</div>
 									<div id="collapse_1" class="card-body collapse" data-parent="#accordion" >
 										<ul>
 											<li onclick="openTab(1);">DO 3 PC</li>
 											<li onclick="openTab(2);">DO 300/500 CNC</li>
-											<li onclick="openTab(3);">DO 800 CNC</li>
+											<li onclick="openTab(3);">DO 3i PC</li>
 										</ul>
-									</div-->
+									</div>
 									<div class="card-header collapsed accordion" id="accordion_2" data-toggle="collapse" href="#collapse_2">
 										<span>Double flank for cylindrical Gear</span>
 									</div>
@@ -119,6 +123,12 @@ include_once('header.php');
 						</div>
                     </div>
                 </div>      
+				<div class="single-global-office" style="margin-top:20px;padding: 15px;">
+					<div class="text">
+						<h3 style="margin-bottom:7px"><i class="fa fa-gear fa-spin"></i>&nbsp; Sales office</h3>
+						<p>104, S.V. Industrial Estate, Handewadi Road Hadapsar, Pune 411028, Maharashtra, India</p>   
+					</div>
+				</div>
             </div>
 			<div class="col-xl-9 col-lg-12">
 				<div class="row collapse-info" id="collapseOpen_1">
@@ -126,11 +136,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/india/do3pc.png" alt=" Image">    
+								</div>  
 							</div>
 						</div>
 					</div>
@@ -183,11 +190,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/noimage.png" alt=" Image">    
+								</div>  
 							</div>
 						</div>
 					</div>
@@ -292,19 +296,16 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/india/do3pc.png" alt=" Image">    
+								</div>   
 							</div>
 						</div>
 					</div>
 					<div class="col-xl-5 col-lg-12 f-r">
 						<div class="project-info" id="project-info">
 							<div class="title">
-								<h3>DO 800 CNC</h3>
-								<p>Measuring instrument for complete testing of geometric deviations, ie. profile, helix angle, radial run out and check dimensions. Also available with special SW measuring parameters of external and internal gears, hobs, shaping cutters, shaving worms, worm wheel and bevel gear.</p>
+								<h3>DO 3i PC</h3>
+								<p>Measuring instrument DO -3i PC for testing of geometric deviations in spur and helical gears i.e. Lead, Profile and pitch errors along with run out, base tangent length, dimension over ball etc.</p>
 							</div>							
 						</div>
 					</div>  
@@ -312,26 +313,26 @@ include_once('header.php');
 						<table class="table table-striped borderless">
 							<thead>
 								<th></th>
-								<th>DO 800 CNC</th>
+								<th>DO 3i PC</th>
 							</thead>
 							<tbody>
 								<tr>
 									<td>Max. dia. of measured wheel	</td>
-									<td>800 mm</td>
+									<td>180/280 mm</td>
 								</tr>
 								<tr>
 									<td>Min/Max module of measured wheel</td>
-									<td>1/20 mm</td>
+									<td>0.5/ 8 mm</td>
 								</tr>
 								<tr>
-									<td>Max angle of tooth declinationl	</td>
-									<td>90 mm</td>
+									<td>Maximum tooth helix angle	</td>
+									<td>45 deg</td>
 								</tr><tr>
-									<td>Max measured width of the wheel	</td>
-									<td>600 mm</td>
+									<td>Max gear width	</td>
+									<td>350 mm</td>
 								</tr><tr>
 									<td>Distance between centres</td>
-									<td> 	20 – 1000 mm</td>
+									<td> 350, 500 or 700 mm</td>
 								</tr>
 								
 							<tbody>
@@ -343,11 +344,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/india/do0pc.png" alt=" Image">    
+								</div>  
 							</div>
 						</div>
 					</div>
@@ -387,67 +385,14 @@ include_once('header.php');
 					</div>	
 					
 					
-					<div class="col-xl-12 col-lg-12">
-						<div class="shop-content">
-							<!--Start related product box-->
-							<div class="related-product" id="related-product">
-								<div class="title">
-									<h3>Related Video
-								</div>
-								<div class="row">
-									<!--Start single product item-->
-									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-										<div class="text-center">
-											<div class="img-holder">
-												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/Bb95y3xDUi0">
-													<img src="http://img.youtube.com/vi/Bb95y3xDUi0/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-													<span><i class="fa fa-play fa-3x"></i></span>
-												<a/>
-											</div>
-										</div>
-									</div>
-									<!--End single product item--> 
-									<!--Start single product item-->
-									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-										<div class="text-center">
-											<div class="img-holder">
-												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
-													<img src="http://img.youtube.com/vi/VujGxYDqjEc/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-													<span><i class="fa fa-play fa-3x"></i></span>
-												</a>
-											</div>
-										</div>
-									</div>
-									<!--End single product item-->
-									<!--Start single product item-->
-									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-										<div class="text-center">
-											<div class="img-holder">
-												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
-													<img src="http://img.youtube.com/vi/D-3Ylgbzo9I/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-													<span><i class="fa fa-play fa-3x"></i></span>
-												</a>	
-											</div>
-										</div>
-									</div>
-									<!--End single product item-->  
-									 
-								</div>
-							</div>
-							<!--End related product box-->
-						</div> 
-					</div>
 				</div>
 				<div class="row collapse-info" id="collapseOpen_5">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/india/do1pc.png" alt=" Image">    
+								</div>   
 							</div>
 						</div>
 					</div>
@@ -491,11 +436,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/noimage.png" alt=" Image">    
+								</div>   
 							</div>
 						</div>
 					</div>
@@ -539,11 +481,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/india/do1w.png" alt=" Image">    
+								</div>   
 							</div>
 						</div>
 					</div>
@@ -587,11 +526,20 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/product/DO 2 PC/_MG_0381.JPG" alt="Awesome Image">    
+									<img src="images/product/india/do2pc/1.jpg" alt=" Image">    
 								</div>
 								<div class="single-item">
-									<img src="images/product/DO 2 PC/_MG_0382.JPG" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/india/do2pc/2.jpg" alt=" Image">    
+								</div>  
+								<div class="single-item">
+									<img src="images/product/india/do2pc/3.jpg" alt=" Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/product/india/do2pc/4.jpg" alt=" Image">    
+								</div>  
+								<div class="single-item">
+									<img src="images/product/india/do2pc/5.jpg" alt=" Image">    
+								</div>
 							</div>
 						</div>
 					</div>
@@ -635,11 +583,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/noimage.png" alt=" Image">    
+								</div>   
 							</div>
 						</div>
 					</div>
@@ -692,11 +637,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/noimage.png" alt=" Image">    
+								</div>   
 							</div>
 						</div>
 					</div>
@@ -739,12 +681,102 @@ include_once('header.php');
 						</table>	
 					</div>	
 				</div>
-				 <div class="row collapse-info" id="collapseOpen_18">
+				<div class="row collapse-info" id="collapseOpen_16">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/product/DO 125K/Do125k.JPG" alt="Awesome Image">    
+									<img src="images/product/india/do2s.png" alt=" Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 2S PC</h3>
+								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 125 K PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of measured pinion 	 	</td>
+									<td>10 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of measured wheel 	 		</td>
+									<td>140 mm</td>
+								</tr>
+								<tr>
+									<td>Max. assembly distance 	</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Angle of conical gearing axes 			</td>
+									<td>70-120°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				<div class="row collapse-info" id="collapseOpen_17">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/product/noimage.png" alt=" Image">    
+								</div>    
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>IMO 1000 S PC</h3>
+								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 125 K PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of measured pinion 	 	</td>
+									<td>10 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of measured wheel 	 		</td>
+									<td>140 mm</td>
+								</tr>
+								<tr>
+									<td>Max. assembly distance 	</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Angle of conical gearing axes 			</td>
+									<td>70-120°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				<div class="row collapse-info" id="collapseOpen_18">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/product/india/DO125K/1.jpg" alt=" Image">    
 								</div>    
 							</div>
 						</div>
@@ -789,10 +821,10 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/product/DO-0 PC with Worm/IMG-20171103-WA0009.JPG" alt="Awesome Image">
+									<img src="images/product/india/DO-0wPC/1.jpg" alt=" Image">
 								</div>  
                                      <div class="single-item">
-									 <img src="images/product/DO-0 PC with Worm/IMG-20171103-WA0007.JPG" alt="Awesome Image">
+									 <img src="images/product/india/DO-0wPC/2.jpg" alt=" Image">
 									 
 								</div> 								
 							</div>
@@ -838,11 +870,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/india/do140.png" alt=" Image">    
+								</div>   
 							</div>
 						</div>
 					</div>
@@ -881,16 +910,148 @@ include_once('header.php');
 						</table>	
 					</div>	
 				</div>
+				<div class="row collapse-info" id="collapseOpen_19">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/product/india/do2k.png" alt=" Image">    
+								</div>   
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>DO 2 K PC</h3>
+								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 140 K PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of measured pinion 	 	</td>
+									<td>10 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of measured wheel 	 		</td>
+									<td>140 mm</td>
+								</tr>
+								<tr>
+									<td>Max. assembly distance 	</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Angle of conical gearing axes 			</td>
+									<td>70-120°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				<div class="row collapse-info" id="collapseOpen_20">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/product/india/zlk600.png" alt=" Image">    
+								</div>   
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>ZLK 300/600 PC</h3>
+								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 140 K PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of measured pinion 	 	</td>
+									<td>10 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of measured wheel 	 		</td>
+									<td>140 mm</td>
+								</tr>
+								<tr>
+									<td>Max. assembly distance 	</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Angle of conical gearing axes 			</td>
+									<td>70-120°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
+				<div class="row collapse-info" id="collapseOpen_21">
+					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+						<div class="project-carousel-box">
+							<div class="project-single-carousel owl-carousel owl-theme">
+								<div class="single-item">
+									<img src="images/product/india/imo1000.png" alt=" Image">    
+								</div>   
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-5 col-lg-12 f-r">
+						<div class="project-info" id="project-info">
+							<div class="title">
+								<h3>IMO 1000 K PC</h3>
+								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+							</div>							
+						</div>
+					</div>  
+					<div class="col-xl-12 col-lg-12">
+						<table class="table table-striped borderless">
+							<thead>
+								<th></th>
+								<th>DO 140 K PC</th>
+							</thead>
+							<tbody>
+								<tr>
+									<td>Min. dia. of measured pinion 	 	</td>
+									<td>10 mm</td>
+								</tr>
+								<tr>
+									<td>Max. dia. of measured wheel 	 		</td>
+									<td>140 mm</td>
+								</tr>
+								<tr>
+									<td>Max. assembly distance 	</td>
+									<td>100 mm</td>
+								</tr>
+								<tr>
+									<td>Angle of conical gearing axes 			</td>
+									<td>70-120°</td>
+								</tr>
+							<tbody>
+						</table>	
+					</div>	
+				</div>
 				 <div class="row collapse-info" id="collapseOpen_12">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/noimage.png" alt=" Image">    
+								</div>   
 							</div>
 						</div>
 					</div>
@@ -942,11 +1103,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/noimage.png" alt=" Image">    
+								</div>   
 							</div>
 						</div>
 					</div>
@@ -994,11 +1152,14 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/india/gt600/1.jpg" alt=" Image">    
 								</div>
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/india/gt600/2.jpg" alt=" Image">    
+								</div>
+								<div class="single-item">
+									<img src="images/product/india/gt600/3.jpg" alt=" Image">    
+								</div>
 							</div>
 						</div>
 					</div>

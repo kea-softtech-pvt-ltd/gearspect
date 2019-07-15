@@ -24,12 +24,12 @@
 						<div class="single-categories-box">
 							<h2><?php echo $lang['index']['slider']['eroupe']; ?></h2>
 							<p><?php echo $lang['index']['slider']['text']; ?></p>
-							<a class="btn-one" href="#"><?php echo $lang['index']['slider']['read_more']; ?><span class="icon-thin-right-arrow"></span></a>    
+							<a class="btn-one" href="./product"><?php echo $lang['index']['slider']['read_more']; ?><span class="icon-thin-right-arrow"></span></a>    
 						</div>
 						<div class="single-categories-box style2">
 							<h2><?php echo $lang['index']['slider']['india']; ?></h2>
 							<p><?php echo $lang['index']['slider']['text']; ?></p>
-							<a class="btn-one" href="#"><?php echo $lang['index']['slider']['read_more']; ?><span class="icon-thin-right-arrow"></span></a>    
+							<a class="btn-one" href="./productind"><?php echo $lang['index']['slider']['read_more']; ?><span class="icon-thin-right-arrow"></span></a>    
 						</div>
 					</div>			
 				</div>
@@ -91,7 +91,7 @@
 <!--End Choose area style2-->
 
 <!--Start Testimonial Area-->
-<section class="testimonial-area" id="testimonial-area" style="background-image: url(images/parallax-background/choose-bg.jpg);">
+<!--section class="testimonial-area" id="testimonial-area" style="background-image: url(images/parallax-background/choose-bg.jpg);">
     <div class="container">
         <div class="row">
             <div class="col-xl-12">
@@ -101,7 +101,6 @@
 					</div>
                     <div class="testimonial-carousel owl-carousel owl-theme">
 						<?php foreach($lang['index']['words']['slider'] as $val) { ?>
-                        <!--Start Single Testimonial Item-->
                         <div class="single-testimonial-item">
                             <div class="company-logo">
                                 <img src="<?php echo $val['img']; ?>" alt="Company Logo">
@@ -116,14 +115,13 @@
                             <div class="button">                   
                             </div>
                         </div>
-                        <!--End Single Testimonial Item-->
 						<?php } ?>
                     </div>
                 </div>    
             </div>
         </div>
     </div>    
-</section>
+</section -->
 <!--End Testimonial Area-->
 
 <!--Start Branches section-->

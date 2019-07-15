@@ -20,9 +20,12 @@
                         data-map-zoom="1" 
                         data-markers='{
                             "marker-1": [50.1695285, 14.7642849, "<h4>Gearspect Engineering, </h4><h5>Headquarter</h5><p>Stankovskeho 2062, Celakovice 25088 Czech Republic</p>"],
-                            "marker-2": [41.0204124, -73.7618798, "<h4>Gearspect USA Llc.</h4><p>14 Nosband Avenue, White Plains, New York 10605 USA</p>"],
-                            "marker-3": [18.4775739, 73.934555, "<h4>Gearspect India Pvt. Ltd.</h4><p> Pune, Maharashtra, India</p>"]
-
+                            "marker-2": [38.72062,-9.2169547, "<h4>Stockfer - Representações, Lda.</h4><p>LISBOA. Est. Circunvalação – Qta. Paizinho, Rua B – Armazém F, 2790-194 Carnaxide, Portugal</p>"],
+                            "marker-3": [18.4775739, 73.934555, "<h4>Gearspect India Pvt. Ltd.</h4><p> Pune, Maharashtra, India</p>"],
+                            "marker-4": [40.9318098,-8.5832071, "<h4>Santa Maria da Feira.</h4><p> Santa Maria da Feira, Portugal</p>"],
+                            "marker-5": [31.2473465,121.6182523, "<h4>Lab Gages Co. Ltd</h4><p> pudong, shonghai</p>"],
+                            "marker-6": [37.3183503,126.7520483, "<h4>TC Trading</h4><p>Ansan-si Gyeonggi-do 4252851, Rep. of korea</p>"],
+                            "marker-7": [48.7307348,2.2356147, "<h4>Mahr France</h4><p> 6 Rue Lavoisier - Z.I, 91430 Igny, France</p>"]
                         }'>
                     </div>   
                 </div> 
@@ -90,20 +93,6 @@
                             <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Santa Maria da Feira</h3>
                             <p>Rua 25 de Abril, 145, 4520-115 Espargo, Santa Maria da Feira, Portugal</p>
                             <p>http://www.stockfer.pt/PT/contactos<br/>Telephone : +351 256 106 265<br/>Fax : +351 256 100 081<br/>Email : info@stockfer.pt / encomendas@stockfer.pt	</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Single Global Office-->
-	
-			<!--Start Single Global Office-->
-            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
-                <div class="single-global-office">
-                    <div class="inner">
-                        <div class="text">
-                            <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Lab Gages Co. Ltd</h3>
-                            <p>Room 1603, Unit3, No.100, Jintu road, pudong, shonghai, Postal code : 201206</p>
-                            <p>www.labgages.com<br/>Telephone : 8621-50473900<br/>Fax : 8621-50473901<br/>Email : paul@labgages.com<br/>Phone : 18616300896</p>
                         </div>
                     </div>
                 </div>

@@ -53,6 +53,15 @@
 		'images/brand/38.png',
 		'images/brand/39.png',
 		'images/brand/40.png',
+		'images/brand/41.png',
+		'images/brand/42.png',
+		'images/brand/43.png',
+		'images/brand/44.png',
+		'images/brand/45.png',
+		'images/brand/46.png',
+		'images/brand/47.png',
+		'images/brand/48.png',
+		'images/brand/49.png'
 	);
 	
 	$slider = array(

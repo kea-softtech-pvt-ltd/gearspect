@@ -7,7 +7,11 @@ $query_str = base64_decode(parse_url(($url), PHP_URL_QUERY));
 $id = (empty($query_str))?1:$query_str;
 include_once('header.php'); 
 ?>   
-
+<style>
+.single-item {
+    /* background-color: #f2f2f2; */
+}
+</style>
 <!--Start breadcrumb area-->     
 <section class="breadcrumb-area" style="background-image: url(images/re sources/breadcrumb-bg.jpg);">
     <div class="container">
@@ -90,7 +94,13 @@ include_once('header.php');
 							</div>
 						</div>
                     </div>
-                </div>      
+                </div> 
+				<div class="single-global-office" style="margin-top:20px;padding: 15px;">
+					<div class="text">
+						<h3 style="margin-bottom:7px"><i class="fa fa-gear fa-spin"></i>&nbsp; Sales office</h3>
+						<p>Stankovskeho 2062, Celakovice 25088, Czech Republic</p>   
+					</div>
+				</div>
             </div>
 			<div class="col-xl-9 col-lg-12">
 				<div class="row collapse-info" id="collapseOpen_1">
@@ -98,11 +108,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/europe/sbo340.png" alt="Awesome Image">    
+								</div> 
 							</div>
 						</div>
 					</div>
@@ -157,39 +164,14 @@ include_once('header.php');
 									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
 										<div class="text-center">
 											<div class="img-holder">
-												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/Bb95y3xDUi0">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://www.youtube.com/watch?v=Bb95y3xDUi0?rel=0">
 													<img src="http://img.youtube.com/vi/Bb95y3xDUi0/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
 													<span><i class="fa fa-play fa-3x"></i></span>
 												<a/>
 											</div>
 										</div>
 									</div>
-									<!--End single product item--> 
-									<!--Start single product item-->
-									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-										<div class="text-center">
-											<div class="img-holder">
-												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
-													<img src="http://img.youtube.com/vi/VujGxYDqjEc/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-													<span><i class="fa fa-play fa-3x"></i></span>
-												</a>
-											</div>
-										</div>
-									</div>
-									<!--End single product item-->
-									<!--Start single product item-->
-									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
-										<div class="text-center">
-											<div class="img-holder">
-												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
-													<img src="http://img.youtube.com/vi/D-3Ylgbzo9I/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
-													<span><i class="fa fa-play fa-3x"></i></span>
-												</a>	
-											</div>
-										</div>
-									</div>
-									<!--End single product item-->  
-									 
+									<!--End single product item--> 									 
 								</div>
 							</div>
 							<!--End related product box-->
@@ -201,11 +183,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/noimage.png" alt="Awesome Image">    
+								</div>  
 							</div>
 						</div>
 					</div>
@@ -249,11 +228,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/noimage.png" alt="Awesome Image"> 
+								</div> 
 							</div>
 						</div>
 					</div>
@@ -301,11 +277,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
+									<img src="images/product/noimage.png" alt="Awesome Image">  
+								</div> 
 							</div>
 						</div>
 					</div>
@@ -345,11 +318,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/noimage.png" alt="Awesome Image">
 								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
 							</div>
 						</div>
 					</div>
@@ -403,11 +373,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/europe/sfh160.png" alt="Awesome Image">    
 								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
 							</div>
 						</div>
 					</div>
@@ -453,11 +420,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/europe/sf1000.png" alt="Awesome Image">    
 								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
 							</div>
 						</div>
 					</div>
@@ -503,11 +467,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/europe/oha16.png" alt="Awesome Image">    
 								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
 							</div>
 						</div>
 					</div>
@@ -553,11 +514,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/europe/so800.png" alt="Awesome Image">    
 								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
 							</div>
 						</div>
 					</div>
@@ -593,17 +551,40 @@ include_once('header.php');
 							<tbody>
 						</table>	
 					</div>	
+					
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<div class="shop-content">
+							<!--Start related product box-->
+							<div class="related-product">
+								<div class="title">
+									<h3>Related Video
+								</div>
+								<div class="row">
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://www.youtube.com/watch?v=rrgXZfEvSIs">
+													<img src="http://img.youtube.com/vi/rrgXZfEvSIs/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												<a/>
+											</div>
+										</div>
+									</div>
+									<!--End single product item--> 									 
+								</div>
+							</div>
+							<!--End related product box-->
+						</div> 
+					</div>
 				</div>
 				<div class="row collapse-info" id="collapseOpen_10">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/europe/sbk600.png" alt="Awesome Image">    
 								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
 							</div>
 						</div>
 					</div>
@@ -646,18 +627,41 @@ include_once('header.php');
 								</tr>
 							<tbody>
 						</table>	
-					</div>	
+					</div>
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<div class="shop-content">
+							<!--Start related product box-->
+							<div class="related-product">
+								<div class="title">
+									<h3>Related Video
+								</div>
+								<div class="row">
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://www.youtube.com/watch?v=rrgXZfEvSIs">
+													<img src="http://img.youtube.com/vi/rrgXZfEvSIs/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												<a/>
+											</div>
+										</div>
+									</div>
+									<!--End single product item--> 									 
+								</div>
+							</div>
+							<!--End related product box-->
+						</div> 
+					</div>
+					
 				</div>
 				<div class="row collapse-info" id="collapseOpen_11">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/europe/sfk200.png" alt="Awesome Image">    
 								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
 							</div>
 						</div>
 					</div>
@@ -699,11 +703,8 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
+									<img src="images/product/europe/sfk1000.png" alt="Awesome Image">    
 								</div>
-								<div class="single-item">
-									<img src="images/projects/project-single/project-info-1.jpg" alt="Awesome Image">    
-								</div>    
 							</div>
 						</div>
 					</div>

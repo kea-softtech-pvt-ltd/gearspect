@@ -22,7 +22,7 @@
 	$lang['index']['slider'] = array(
 		'eroupe' => 'GearSpect Europe',
 		'india' => 'GearSpect India',
-		'text' => 'You can find the material & parts for your industries',
+		'text' => '',
 		'read_more' => 'Read More'
 	);
 	
@@ -83,19 +83,9 @@
 	
 	$eventsDataArr = array(
 		array(
-			'title' => 'Application of analytics, amplify its power, and steer companies away from risky outcomes....',
-			'text' => 'We won best factory award of the year 2017 & 18.',			
-			'date' => '08 AUG',			
-		),
-		array(
-			'title' => 'Application of analytics, amplify its power, and steer companies away from risky outcomes....',
-			'text' => 'We won best factory award of the year 2017 & 18.',			
-			'date' => '08 AUG',			
-		),
-		array(
-			'title' => 'Application of analytics, amplify its power, and steer companies away from risky outcomes....',
-			'text' => 'We won best factory award of the year 2017 & 18.',			
-			'date' => '08 AUG',			
+			'title' => 'MOU SIGNED FOR INDIAN SUBSIDIARY COMPANY',
+			'text' => 'India-Czech Business Seminar on 11th Sept 2012 at MSV Brno Exhibition with Mr. Anant Sharma, Minister of Commerce, Industry & Textiles of India.',			
+			'date' => 'SEPT 2012',			
 		)
 	);
 	
@@ -105,7 +95,7 @@
 	}
 	
 	$lang['index']['events'] = array(
-		'title' => 'Latest From Events',
+		'title' => 'Recent Events and Exhibitions',
 		'slider' => $eventsArr
 	);
 	
