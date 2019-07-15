@@ -36,7 +36,7 @@
 				$path = $target_dir;
 				$file = $path . $filename;
 
-				$mailto = 'yogesh.korade5@gmail.com';
+				$mailto = ' sales.info@gearspect.com';
 				$subject = "Career Enquiry by ".$varfname;
 				$message_text = "Full Name : ".$varfname." ".$varlname."<br>Email :".$emailname."<br>Phone : ".$phonename."<br>Message :".$form_message;
 				
@@ -50,7 +50,7 @@
 				$eol = "\r\n";
 
 				// main header (multipart mandatory)
-				$headers = "From: yogesh.korade5@gmail.com" . $eol;
+				$headers = "From: sales.info@gearspect.com" . $eol;
 				$headers .= "MIME-Version: 1.0" . $eol;
 				$headers .= "Content-Type: multipart/mixed; boundary=\"" . $separator . "\"" . $eol;
 				$headers .= "Content-Transfer-Encoding: 7bit" . $eol;

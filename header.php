@@ -1,4 +1,5 @@
 <?php 
+error_reporting(0);
 session_start();
 if(!isset($_SESSION['lang'])){ $_SESSION['lang'] = "en"; }
 include_once('lang/'.$_SESSION['lang'].'.php'); 

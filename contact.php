@@ -632,14 +632,14 @@
 				
 				//$message= $varchecbox;
 				
-				$to = "deva.shinde1@gmail.com";
+				$to = "sales.info@gearspect.com";
 				$subject = "You have one enquiry from ".$companyname;				 
 				$message = "Full Name : ".$varfname." ".$varlname."<br>Company Name : ".$companyname." <br>Email :".$emailname."<br>Phone : ".$phonename."<br>Web Site :".$websitename."<br>Country : ".$countryname."<br>City : ".$Cityname."<br>Address : ".$address."<br>".$varchecbox;
-				$header = "From:deva.shinde1@gmail.com \r\n";
+				$header = "From: sales.info@gearspect.com \r\n";
 				$header .= "MIME-Version: 1.0\r\n";
 				$header .= "Content-type: text/html\r\n";
-				echo $message;
-				/* 
+				/*echo $message;
+				 
 				$retval = mail ($to,$subject,$message,$header);				 
 				if( $retval == true ) {
 					echo "Message sent successfully...";
