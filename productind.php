@@ -395,7 +395,7 @@ include_once('header.php');
 								</tr>
 								<tr>
 									<td>Min/max. module	</td>
-									<td>0.1 – 2 mm</td>
+									<td>2 – 120 mm</td>
 								</tr><tr>
 									<td>Min/Max. distance between centres	</td>
 									<td>35 -125 mm</td>
@@ -465,8 +465,8 @@ include_once('header.php');
 					<div class="col-xl-5 col-lg-12 f-r">
 						<div class="project-info" id="project-info">
 							<div class="title">
-								<h3>DO 1 PC</h3>
-								<p>Test deviations of double flank and Mdk of shafts and spur gears. Scanning and evaluation by PC.</p>
+								<h3>DO 1 D PC</h3>
+								<p>Computerised double flank evaluation of Spur/Helical gear with dual station facility to acctive highest productivity.</p>
 							</div>							
 						</div>
 					</div>  
@@ -474,25 +474,25 @@ include_once('header.php');
 						<table class="table table-striped borderless">
 							<thead>
 								<th></th>
-								<th>DO 1 PC</th>
+								<th>DO 1 D PC</th>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Max. dia. of measured wheel	</td>
-									<td>10- 320 mm</td>
+									<td>Min/Max dia. of wheel	</td>
+									<td>2- 120 mm</td>
 								</tr>
 								<tr>
 									<td>Clamping between centres</td>
-									<td>180/280 mm</td>
+									<td>100 mm</td>
 								</tr>
 								<tr>
-									<td>Min/max. module	</td>
-									<td>0.5 – 8 mm</td>
-								</tr><tr>
-									<td>Min/Max. distance between centres	</td>
-									<td>5 -250 mm</td>
+									<td>Min/Max module</td>
+									<td>0.1 - 2 mm</td>
+								</tr>								
+								<tr>
+									<td>Min/max. center distance	</td>
+									<td>35 – 125 mm</td>
 								</tr>
-								
 							<tbody>
 						</table>	
 					</div>	
@@ -716,7 +716,7 @@ include_once('header.php');
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>DO 2S PC</h3>
-								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+								<p>Measuring instrument DO 2S PC for testing worm gearing by single flank rolling method. scanning and evaluation by PC.</p>
 							</div>							
 						</div>
 					</div>  
@@ -724,24 +724,28 @@ include_once('header.php');
 						<table class="table table-striped borderless">
 							<thead>
 								<th></th>
-								<th>DO 125 K PC</th>
+								<th>DO 2S PC</th>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Min. dia. of measured pinion 	 	</td>
-									<td>10 mm</td>
+									<td>Min/Max. dia. of worm  	 	</td>
+									<td>7 mm</td>
 								</tr>
 								<tr>
-									<td>Max. dia. of measured wheel 	 		</td>
-									<td>140 mm</td>
+									<td>Min/Max. axis distance 	 		</td>
+									<td>320 mm</td>
 								</tr>
 								<tr>
-									<td>Max. assembly distance 	</td>
-									<td>100 mm</td>
+									<td>Max. length of worm between the center 	</td>
+									<td>15 - 310 mm</td>
 								</tr>
 								<tr>
-									<td>Angle of conical gearing axes 			</td>
-									<td>70-120°</td>
+									<td>Max weight of worm 			</td>
+									<td>700 mm</td>
+								</tr>
+								<tr>
+									<td>Axis angle</td>
+									<td>90°</td>
 								</tr>
 							<tbody>
 						</table>	
@@ -806,7 +810,7 @@ include_once('header.php');
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>DO 125 K PC</h3>
-								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+								<p>Enables conventional double flank test of bevel gears. Reading and evaluation using dial gauges</p>
 							</div>							
 						</div>
 					</div>  
@@ -818,20 +822,20 @@ include_once('header.php');
 							</thead>
 							<tbody>
 								<tr>
-									<td>Min. dia. of measured pinion 	 	</td>
+									<td>Min. dia. of pinion 	 	</td>
 									<td>10 mm</td>
 								</tr>
 								<tr>
-									<td>Max. dia. of measured wheel 	 		</td>
-									<td>140 mm</td>
+									<td>Max. dia. of gear 	 		</td>
+									<td>125 mm</td>
 								</tr>
 								<tr>
-									<td>Max. assembly distance 	</td>
-									<td>100 mm</td>
+									<td>Min/Max. assembly distance 	</td>
+									<td>35 - 90 mm</td>
 								</tr>
 								<tr>
-									<td>Angle of conical gearing axes 			</td>
-									<td>70-120°</td>
+									<td>Angle between axes 			</td>
+									<td>50°-140°</td>
 								</tr>
 							<tbody>
 						</table>	
@@ -855,7 +859,7 @@ include_once('header.php');
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>DO 0 W PC</h3>
-								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+								<p>Measuring instrument. Enables computeried double flank evaluation of worm. Minimum/Maximum axis distance 35-50mm</p>
 							</div>							
 						</div>
 					</div>  
@@ -863,24 +867,16 @@ include_once('header.php');
 						<table class="table table-striped borderless">
 							<thead>
 								<th></th>
-								<th>DO 125 K PC</th>
+								<th>DO 0 W PC</th>
 							</thead>
 							<tbody>
 								<tr>
-									<td>Min. dia. of measured pinion 	 	</td>
-									<td>10 mm</td>
+									<td>Min. axis dsiatnce 	 	</td>
+									<td>35 mm</td>
 								</tr>
 								<tr>
-									<td>Max. dia. of measured wheel 	 		</td>
-									<td>140 mm</td>
-								</tr>
-								<tr>
-									<td>Max. assembly distance 	</td>
-									<td>100 mm</td>
-								</tr>
-								<tr>
-									<td>Angle of conical gearing axes 			</td>
-									<td>70-120°</td>
+									<td>Min. axis dsiatnce 	 		</td>
+									<td>50 mm</td>
 								</tr>
 							<tbody>
 						</table>	
@@ -900,7 +896,7 @@ include_once('header.php');
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>DO 140 K PC</h3>
-								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+								<p>Measuring instrument DO 140 K PC for testing of bevel gearing by single flank method, Scanning and evaluation by PC.</p>
 							</div>							
 						</div>
 					</div>  
