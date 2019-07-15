@@ -183,7 +183,32 @@ include_once('header.php');
 							<tbody>
 						</table>	
 					</div>
-        	
+					
+					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+						<div class="shop-content">
+							<!--Start related product box-->
+							<div class="related-product" id="related-product">
+								<div class="title">
+									<h3>Related Video
+								</div>
+								<div class="row">
+									<!--Start single product item-->
+									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
+										<div class="text-center">
+											<div class="img-holder">
+												<a class="html5lightbox video" title="Gearspect Video Gallery" href="https://youtu.be/VujGxYDqjEc">
+													<img src="http://img.youtube.com/vi/VujGxYDqjEc/maxresdefault.jpg" title="YouTube Video" alt="YouTube Video" />
+													<span><i class="fa fa-play fa-3x"></i></span>
+												</a>
+											</div>
+										</div>
+									</div>
+								
+								</div>
+							</div>
+							<!--End related product box-->
+						</div> 
+					</div>	
 				</div> 
 				<div class="row collapse-info" id="collapseOpen_2">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
