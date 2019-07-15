@@ -64,7 +64,7 @@
                         <div class="text">
                             <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Stockfer - Representações, LDA</h3>
                             <p>LISBOA. Est. Circunvalação – Qta. Paizinho, Rua B – Armazém F, 2790-194 Carnaxide, Portugal </p>
-                            <p>Telephone : +351 214 269 191, <br/>Fax : +351 214 269 192</p>
+                            <p>Telephone : <a href="tel:+351 214 269 191">+351 214 269 191</a> <br/>Fax : +351 214 269 192</p>
                         </div>
                     </div>
                 </div>
@@ -92,7 +92,7 @@
                         <div class="text">
                             <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Santa Maria da Feira</h3>
                             <p>Rua 25 de Abril, 145, 4520-115 Espargo, Santa Maria da Feira, Portugal</p>
-                            <p>http://www.stockfer.pt/PT/contactos<br/>Telephone : +351 256 106 265<br/>Fax : +351 256 100 081<br/>Email : info@stockfer.pt / encomendas@stockfer.pt	</p>
+                            <p><a href="http://www.stockfer.pt/PT/contactos">www.stockfer.pt/PT/contactos</a><br/>Telephone : <a href="tel:+351 256 106 265">+351 256 106 265</a><br/>Fax : +351 256 100 081<br/>Email : <a href="mailto:info@stockfer.pt">info@stockfer.pt</a> / <a href="mailto:encomendas@stockfer.pt">encomendas@stockfer.pt</a>	</p>
                         </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                         <div class="text">
                             <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Lab Gages Co. Ltd</h3>
                             <p>Room 1603, Unit3, No.100, Jintu road, pudong, shonghai, Postal code : 201206</p>
-                            <p>www.labgages.com<br/>Telephone : 8621-50473900<br/>Fax : 8621-50473901<br/>Email : paul@labgages.com<br/>Phone : 18616300896</p>
+                            <p><a href="http://www.labgages.com">www.labgages.com</a><br/>Telephone : <a href="tel:8621-50473900">8621-50473900</a><br/>Fax : 8621-50473901<br/>Email : <a href="mailto:paul@labgages.com">paul@labgages.com</a><br/>Phone : <a href="tel:18616300896">18616300896</a></p>
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                         <div class="text">
                             <h3><i class="fa fa-gear fa-spin"></i>&nbsp; TC Trading</h3>
                             <p>532, 107, Sandan-ro, danwan-gu, Ansan-si Gyeonggi-do 4252851, Rep. of korea</p>
-                            <p>www.tc-trading.com<br/>Telephone : +82-3150-89631<br/>Fax : +82-31525-5200<br/>Email : sales@tc-trading.com<br/>Phone : +82-70-8666-3041(24)</p>
+                            <p><a href="http://www.tc-trading.com" target="_blank">www.tc-trading.com</a><br/>Telephone : <a href="tel:+82-3150-89631">+82-3150-89631</a><br/>Fax : +82-31525-5200<br/>Email : <a href="mailto:sales@tc-trading.com">sales@tc-trading.com</a><br/>Phone : <a href="tel:+82-70-8666-3041(24)">+82-70-8666-3041(24)</a></p>
                         </div>
                     </div>
                 </div>
@@ -134,7 +134,7 @@
                         <div class="text">
                             <h3><i class="fa fa-gear fa-spin"></i>&nbsp; Mahr France</h3>
                             <p>6 Rue Lavoisier - Z.I, 91430 Igny, France</p>
-                            <p>www.mahr.com<br/>Telephone : +33 0169351919<br/>Email : info@mahr.fr</p>
+                            <p><a href="www.mahr.com">www.mahr.com</a><br/>Telephone : <a href="tel:+33 0169351919">+33 0169351919</a><br/>Email : <a href="mailto:info@mahr.fr">info@mahr.fr</a></p>
                         </div>
                     </div>
                 </div>
