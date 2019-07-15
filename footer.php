@@ -6,7 +6,7 @@
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                 <div class="inner clearfix">
                     <div class="copyright-text float-left">
-                        <p>© 2019 by <a href="#">GearSpect.</a> All Rights Reserved</p>
+                        <p>© 2019 by <a href="./">GearSpect.</a> All Rights Reserved</p>
                     </div>
                     <ul class="footer-menu float-right">
                         <li><a href="career">CAREER</a></li>

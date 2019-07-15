@@ -143,7 +143,7 @@
 					<?php foreach($lang['index']['clients']['img'] as $val) { ?>
                     <!--Start Single Branches Box-->
                     <div class="single-branches-box">
-                        <a href="#"><img src="<?php echo $val;?>" alt="Brand Image"></a>
+                        <img src="<?php echo $val;?>" alt="Brand Image">
                     </div>
                     <!--End Single Branches Box-->
 					<?php } ?>

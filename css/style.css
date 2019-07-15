@@ -10117,3 +10117,7 @@ select:focus {
 .shop-content {
 	margin-bottom: 20px;
 }
+
+a.no-url {
+    color: #fff;
+}

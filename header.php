@@ -68,14 +68,14 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                         <div class="top-contact-info">
                             <ul>
                                 <!--li><span class="icon-phone"></span> <?php echo $lang['header']['talk_to_us']; ?>: <b>+91 9005-765-321</b></li-->
-                                <li><span class="icon-email"></span> sales.info@gearspect.com</li>
+                                <li><a class="no-url" href="mailto:sales.info@gearspect.com"><span class="icon-email"></span> sales.info@gearspect.com</a></li>
                             </ul>    
                         </div> 
                     </div>
                     <div class="top-right-style2 float-right">
                         <ul class="sociallinks-style-one fix">
-                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:;"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="javascript:;"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                             <!--li><a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a></li-->
                             <li><a href="https://in.linkedin.com/company/gearspect-group" target="bank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
                         </ul>
