@@ -97,9 +97,9 @@ include_once('header.php');
 									</div>
 									<div id="collapse_6" class="card-body collapse" data-parent="#accordion" >
 										<ul>
-											<li onclick="openTab(18);">DO 125 K PC</li>
+											<li onclick="openTab(18);">DO 125 K</li>
 											<li onclick="openTab(11);">DO 140 K PC</li>
-											<li onclick="openTab(19);">DO 2 K PC</li>
+											<li onclick="openTab(10);">DO 2 K PC</li>
 											<li onclick="openTab(20);">ZLK 300/600 PC</li>
 											<li onclick="openTab(21);">IMO 1000 K PC</li>
 											<!--li onclick="openTab(12);">ZLK 600 PC</li>
@@ -122,7 +122,8 @@ include_once('header.php');
 				<div class="single-global-office" style="margin-top:20px;padding: 15px;">
 					<div class="text">
 						<h3 style="margin-bottom:7px"><i class="fa fa-gear fa-spin"></i>&nbsp; Sales office</h3>
-						<p>104, S.V. Industrial Estate, Handewadi Road Hadapsar, Pune 411028, Maharashtra, India</p>   
+						<p>104, S.V. Industrial Estate, Handewadi Road Hadapsar, Pune 411028, Maharashtra, India</p>  
+						<p>Telephone : <a href="tel:+91 9922009135">+91 9922009135</a> <br>Email: <a href="mailto:sales-india@gearspect.com">sales-india@gearspect.com<a></p> 
 					</div>
 				</div>
             </div>
@@ -658,7 +659,7 @@ include_once('header.php');
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
-									<img src="images/product/noimage.png" alt=" Image">    
+									<img src="images/product/india/do2k.png" alt=" Image">    
 								</div>   
 							</div>
 						</div>
@@ -765,7 +766,7 @@ include_once('header.php');
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>IMO 1000 S PC</h3>
-								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+								<p></p>
 							</div>							
 						</div>
 					</div>  
@@ -773,7 +774,7 @@ include_once('header.php');
 						<table class="table table-striped borderless">
 							<thead>
 								<th></th>
-								<th>DO 125 K PC</th>
+								<th>IMO 1000 S PC</th>
 							</thead>
 							<tbody>
 								<tr>
@@ -809,7 +810,7 @@ include_once('header.php');
 					<div class="col-xl-5 col-lg-12 f-r">
 						<div class="project-info" id="project-info">
 							<div class="title">
-								<h3>DO 125 K PC</h3>
+								<h3>DO 125 K</h3>
 								<p>Enables conventional double flank test of bevel gears. Reading and evaluation using dial gauges</p>
 							</div>							
 						</div>
@@ -818,7 +819,7 @@ include_once('header.php');
 						<table class="table table-striped borderless">
 							<thead>
 								<th></th>
-								<th>DO 125 K PC</th>
+								<th>DO 125 K</th>
 							</thead>
 							<tbody>
 								<tr>
@@ -986,11 +987,10 @@ include_once('header.php');
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>ZLK 300/600 PC</h3>
-								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
 							</div>							
 						</div>
 					</div>  
-					<div class="col-xl-12 col-lg-12">
+					<!-- <div class="col-xl-12 col-lg-12">
 						<table class="table table-striped borderless">
 							<thead>
 								<th></th>
@@ -1015,7 +1015,7 @@ include_once('header.php');
 								</tr>
 							<tbody>
 						</table>	
-					</div>	
+					</div>	 -->
 				</div>
 				<div class="row collapse-info" id="collapseOpen_21">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
@@ -1031,7 +1031,7 @@ include_once('header.php');
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>IMO 1000 K PC</h3>
-								<p>Simple manual measuring instrument for testing of bevel gearing by double flank rolling method. Angle of crossed axes is 70°-120°. Scanning and evaluation by dial indicator.</p>
+								<p>Measuring instrument IMO 1000 K/W CNC for testing of big bevel and worm gearing by single flank rolling method. Scanning and evaluation by PC.</p>
 							</div>							
 						</div>
 					</div>  
@@ -1039,24 +1039,20 @@ include_once('header.php');
 						<table class="table table-striped borderless">
 							<thead>
 								<th></th>
-								<th>DO 140 K PC</th>
+								<th>IMO 1000 K PC</th>
 							</thead>
 							<tbody>
 								<tr>
 									<td>Min. dia. of measured pinion 	 	</td>
-									<td>10 mm</td>
+									<td>650 mm</td>
 								</tr>
 								<tr>
-									<td>Max. dia. of measured wheel 	 		</td>
-									<td>140 mm</td>
-								</tr>
-								<tr>
-									<td>Max. assembly distance 	</td>
-									<td>100 mm</td>
+									<td>Max. dia. of bevel	 		</td>
+									<td>1000 mm</td>
 								</tr>
 								<tr>
 									<td>Angle of conical gearing axes 			</td>
-									<td>70-120°</td>
+									<td>90°</td>
 								</tr>
 							<tbody>
 						</table>	

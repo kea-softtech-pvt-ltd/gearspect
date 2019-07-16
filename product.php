@@ -94,13 +94,14 @@ include_once('header.php');
 				<div class="single-global-office" style="margin-top:20px;padding: 15px;">
 					<div class="text">
 						<h3 style="margin-bottom:7px"><i class="fa fa-gear fa-spin"></i>&nbsp; Sales office</h3>
-						<p>Stankovskeho 2062, Celakovice 25088, Czech Republic</p>   
+						<p>Stankovskeho 2062, Celakovice 25088, Czech Republic</p> 
+						<p>Email: <a href="mailto:info@gearspect.com">info@gearspect.com<a> Telephone : <a href="tel:+420283890111">+420283890111</a>, <a href="tel:+420604208575">+420283890111</a></p>  
 					</div>
 				</div>
             </div>
 			<div class="col-xl-9 col-lg-12">
 				<div class="row collapse-info" id="collapseOpen_1">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -108,8 +109,8 @@ include_once('header.php');
 								</div> 
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info">
 							<div class="title">
 								<h3>SBO 340/400 CNC</h3>
@@ -175,7 +176,7 @@ include_once('header.php');
 					</div>
 				</div> 
 				<div class="row collapse-info" id="collapseOpen_2">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -183,8 +184,8 @@ include_once('header.php');
 								</div>  
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info">
 							<div class="title">
 								<h3>SBP 400 CNC</h3>
@@ -220,7 +221,7 @@ include_once('header.php');
 					</div>	
 				</div> 
 				<div class="row collapse-info" id="collapseOpen_3">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -228,8 +229,8 @@ include_once('header.php');
 								</div> 
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info">
 							<div class="title">
 								<h3>SBP 800/1250/2000 CNC</h3>
@@ -269,7 +270,7 @@ include_once('header.php');
 					</div>	
 				</div>
 				<div class="row collapse-info" id="collapseOpen_4">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -277,8 +278,8 @@ include_once('header.php');
 								</div> 
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info">
 							<div class="title">
 								<h3>SF 90 CNC</h3>
@@ -310,7 +311,7 @@ include_once('header.php');
 					</div>	
 				</div> 
 				<div class="row collapse-info" id="collapseOpen_5">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -318,8 +319,8 @@ include_once('header.php');
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>SF SF 150/250/350/500 CNC</h3>
@@ -365,7 +366,7 @@ include_once('header.php');
 					</div>	
 				</div>
 				<div class="row collapse-info" id="collapseOpen_6">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -373,8 +374,8 @@ include_once('header.php');
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>SFH 160/250 CNC</h3>
@@ -412,7 +413,7 @@ include_once('header.php');
 					</div>	
 				</div>
 				<div class="row collapse-info" id="collapseOpen_7">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -420,8 +421,8 @@ include_once('header.php');
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>SF 800/1000 CNC</h3>
@@ -459,7 +460,7 @@ include_once('header.php');
 					</div>	
 				</div>
 				<div class="row collapse-info" id="collapseOpen_8">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -467,8 +468,8 @@ include_once('header.php');
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>OHA 16/32 CNC</h3>
@@ -506,7 +507,7 @@ include_once('header.php');
 					</div>	
 				</div>
 				<div class="row collapse-info" id="collapseOpen_9">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -514,8 +515,8 @@ include_once('header.php');
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>SO 800 CNC</h3>
@@ -575,7 +576,7 @@ include_once('header.php');
 					</div>
 				</div>
 				<div class="row collapse-info" id="collapseOpen_10">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -583,8 +584,8 @@ include_once('header.php');
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>SBK 350 / 600 / 1000 CNC</h3>
@@ -652,7 +653,7 @@ include_once('header.php');
 					
 				</div>
 				<div class="row collapse-info" id="collapseOpen_11">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -660,8 +661,8 @@ include_once('header.php');
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>SFK 200 CNC</h3>
@@ -695,7 +696,7 @@ include_once('header.php');
 					</div>	
 				</div>
 				<div class="row collapse-info" id="collapseOpen_12">
-					<div class="col-xl-7 col-lg-12 n-p-l f-l">
+					<!-- <div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
 								<div class="single-item">
@@ -703,8 +704,8 @@ include_once('header.php');
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="col-xl-5 col-lg-12 f-r">
+					</div> -->
+					<div class="col-xl-9 col-lg-12 f-l">
 						<div class="project-info" id="project-info">
 							<div class="title">
 								<h3>SFK 350 / 600 / 1000 CNC</h3>

@@ -59,7 +59,7 @@ include_once('header.php');
 										Installation & Commissioning
 									</a>
 									<a class="card-header collapsed accordion" id="accordion_2" data-toggle="collapse" href="#collapse_2">
-										<span>Gear Testing & Instrument</span>
+										<span>Calibration on site of Gear Testing Instrument</span>
 									</a>
 									<div id="collapse_2" class="card-body collapse" data-parent="#accordion">
 										<ul>
@@ -71,7 +71,7 @@ include_once('header.php');
 										<span>In-house Gear Testing Laboratory</span>
 									</a>
 									<a class="card-header collapsed accordion_none" id="accordion_5" onclick="openTab(5);">
-										<span>Reconditioning Gear Measuring Devices</span>
+										<span>Reconditioning of Gear Measuring Instrument</span>
 									</a>
 								</div>
 							</div>
@@ -80,7 +80,7 @@ include_once('header.php');
                 </div>      
             </div>
 			<div class="col-xl-9 col-lg-12">
-				<div class="row collapse-info" id="collapseOpen_1">
+				<!-- <div class="row collapse-info" id="collapseOpen_1">
 					<div class="col-xl-7 col-lg-12 n-p-l f-l">
 						<div class="project-carousel-box">
 							<div class="project-single-carousel owl-carousel owl-theme">
@@ -134,13 +134,11 @@ include_once('header.php');
 					
 					<div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
 						<div class="shop-content">
-							<!--Start related product box-->
 							<div class="related-product">
 								<div class="title">
 									<h3>Related Video</h3>
 								</div>
 								<div class="row">
-									<!--Start single product item-->
 									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
 										<div class="text-center">
 											<div class="img-holder">
@@ -151,8 +149,6 @@ include_once('header.php');
 											</div>
 										</div>
 									</div>
-									<!--End single product item--> 
-									<!--Start single product item-->
 									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
 										<div class="text-center">
 											<div class="img-holder">
@@ -163,8 +159,6 @@ include_once('header.php');
 											</div>
 										</div>
 									</div>
-									<!--End single product item-->
-									<!--Start single product item-->
 									<div class="col-xl-4 col-lg-4 col-md-6 col-sm-12">
 										<div class="text-center">
 											<div class="img-holder">
@@ -175,11 +169,9 @@ include_once('header.php');
 											</div>
 										</div>
 									</div>
-									<!--End single product item-->  
 									 
 								</div>
 							</div>
-							<!--End related product box-->
 						</div> 
 					</div>
 				</div> 
@@ -384,7 +376,7 @@ include_once('header.php');
 							<tbody>
 						</table>	
 					</div>	
-				</div>
+				</div> -->
 				 				
             </div>   
         </div>

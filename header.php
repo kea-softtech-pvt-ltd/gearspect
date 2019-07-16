@@ -69,7 +69,7 @@ include_once('lang/'.$_SESSION['lang'].'.php');
                         <div class="top-contact-info">
                             <ul>
                                 <!--li><span class="icon-phone"></span> <?php echo $lang['header']['talk_to_us']; ?>: <b>+91 9005-765-321</b></li-->
-                                <li><a class="no-url" href="mailto:sales.info@gearspect.com"><span class="icon-email"></span> sales.info@gearspect.com</a></li>
+                                <li><a class="no-url" href="mailto:sales-india@gearspect.com"><span class="icon-email"></span> sales-india@gearspect.com</a></li>
                             </ul>    
                         </div> 
                     </div>
@@ -134,9 +134,9 @@ include_once('lang/'.$_SESSION['lang'].'.php');
 									<li class="dropdown"><a href="services"><?php echo $lang['menu']['services']; ?></a>
                                         <ul>
                                             <li><a href="services?<?php echo base64_encode(1);?>">Installation & Commissioning</a></li>
-                                            <li><a href="services?<?php echo base64_encode(2);?>">Gear Testing & Instrument</a></li>
+                                            <li><a href="services?<?php echo base64_encode(2);?>">Calibration on site of Gear Testing Instrument</a></li>
                                             <li><a href="services?<?php echo base64_encode(4);?>">In-house Gear Testing Laboratory</a></li>
-                                            <li><a href="services?<?php echo base64_encode(5);?>">Reconditioning Gear Measuring Devices</a></li>
+                                            <li><a href="services?<?php echo base64_encode(5);?>">Reconditioning of Gear Measuring Instrument</a></li>
                                         </ul>
                                     </li>
                                     <li><a href="contact"><?php echo $lang['menu']['contact']; ?></a></li>

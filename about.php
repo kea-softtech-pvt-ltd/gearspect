@@ -37,7 +37,7 @@
             <div class="col-xl-6">
                 <div class="about-text">
                     <span>We offer product design, engineering and manufacturing gears.</span>
-                    <p><b>Gearspect India</b> The company specialises in the manufacture of gear measuring equipment, and has set up a plant at Pune in Maharashtra. The plant is equipped to manufacture gear measuring instruments and gear cutting machines required for automobiles, aeronautics, heavy engineering, construction equipment and defense sectors. Excerpts of an interview Huned Contractor had with Jiri Horacek.</p>
+                    <p>The company specialises in the manufacture of gear measuring equipment, and has set up a plant at Pune in Maharashtra. The plant is equipped to manufacture gear measuring instruments and gear cutting machines required for automobiles, aeronautics, heavy engineering, construction equipment and defense sectors. </p>
                 </div>
             </div>
         </div> 
@@ -50,8 +50,8 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-5">
-                <div class="history-image">
-                    <img src="images/resources/history-bg.jpg" alt="Awesome Image">
+                <div class="history-image" style="background:#fff;">
+                    <img src="images/resources/history-bg.png" alt="Awesome Image">
                 </div>    
             </div>
             <div class="col-xl-7">
@@ -113,6 +113,11 @@
                                 <div class="year"><h3>2011</h3></div> 
                                 <div class="title">Started <h3>Gearspect India</h3> </div>
                             </div>
+                            <div class="acc-content">
+                                <div class="inner">
+                                    <p>GearSpect India started as a sales subsidiary in February 2011 at Pune. It facilitated the supply of our products by importing them. However, looking at the rise in demand, we decided to set up an SSI unit in Pune, making us the only company in India to manufacture gear lead profile pitch inspection equipment. </p>
+                                </div>
+                            </div>
                         </article>
                     </div>   
                 </div>    
@@ -128,7 +133,7 @@
         <div class="row">
             <div class="col-xl-12">
                 <div class="sec-title team_s2_title">
-                    <div class="title"><span>Meet Mr. Jiří</span></div>
+                    <div class="title"><span>Meet Our President</span></div>
                 </div>	
             </div>    
         </div>
@@ -149,6 +154,28 @@
                            
                     </div>
                 </div>
+            </div>
+
+            <div class="col-xl-8 col-lg-6 col-md-6 col-sm-12">
+                <div class="about-text">
+                    <p>We are engaged in design, development, precision
+machining and manufacturing of Gear Cutting as well
+as Gear Measuring equipments since 1993. We are
+catering all renowned and most admired Automobile,
+Auto ancillary and Machine Tool Industry around the
+world since the inception. Some of them are
+Volkswagen, Skoda, SEAT , PSA Peugeot Citroen,
+Magna Power Train, Getrag, ZF Sachs, TRW, Sauer
+Danfoss, Defense manufacturing units in many
+countries.</p>
+<br>
+<h4>What's the future plan?</h4>
+<p>
+
+We are also looking to set up an assembly unit for gear cutting machines in the next two years and would start manufacturing gear cutting machines in the next five years.
+
+</p>
+</div>
             </div>
         </div>
     </div>

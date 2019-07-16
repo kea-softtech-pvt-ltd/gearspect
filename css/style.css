@@ -9058,7 +9058,9 @@ select:focus {
     text-transform: capitalize;
     font-family: 'Rubik', sans-serif;
 }
-.checkout-area .form form .field-input input[type="text"] {
+.checkout-area .form form .field-input input[type="text"] ,
+.checkout-area .form form .field-input input[type="email"] ,
+.checkout-area .form form .field-input input[type="tel"] {
     border: 1px solid #f0eef9;
     color: #848484;
     display: block;
@@ -9967,7 +9969,10 @@ select:focus {
 #checkout-area h3 {
 	padding: 0px 0px 15px 0px;color:#005aab;
 }
-#checkout-area .form form .field-input input[type="text"], textarea {
+#checkout-area .form form .field-input input[type="text"],
+#checkout-area .form form .field-input input[type="tel"],
+#checkout-area .form form .field-input input[type="email"], 
+textarea {
     border: 1px solid #cccccc;
 	box-shadow: 0px 0px 0px 1px #8c8c8c;
 	color:#8c8c8c;
@@ -10120,4 +10125,8 @@ select:focus {
 
 a.no-url {
     color: #fff;
+}
+
+.history-image img{
+    background: #fff;
 }
